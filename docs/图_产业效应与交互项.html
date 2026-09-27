@@ -1,0 +1,213 @@
+<title>产业效应与交互项</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    color-scheme: light;
+    --bg:#F4F6F7; --panel:#FFFFFF; --ink:#1B2430;
+    --ink-2:#4A5563; --ink-3:#77818E; --rule:#DFE4E8;
+    --s-ind:#2a78d6; --s-int:#eb6834; --s-city:#1baf7a; --s-time:#eda100;
+    --accent-soft:rgba(235,104,52,.10);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --bg:#141A21; --panel:#1B222B; --ink:#EDF1F4;
+      --ink-2:#AEB8C4; --ink-3:#7C8794; --rule:#2C3540;
+      --s-ind:#3987e5; --s-int:#d95926; --s-city:#199e70; --s-time:#c98500;
+      --accent-soft:rgba(217,89,38,.16);
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --bg:#141A21; --panel:#1B222B; --ink:#EDF1F4;
+    --ink-2:#AEB8C4; --ink-3:#7C8794; --rule:#2C3540;
+    --s-ind:#3987e5; --s-int:#d95926; --s-city:#199e70; --s-time:#c98500;
+    --accent-soft:rgba(217,89,38,.16);
+  }
+
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+    padding-inline:20px; padding-block:34px 44px;
+  }
+  .wrap{max-width:860px;margin-inline:auto;display:flex;flex-direction:column;gap:30px}
+
+  .eyebrow{font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);font-weight:500}
+  h1{font-size:25px;font-weight:600;margin:6px 0 0;letter-spacing:-.012em;text-wrap:balance;line-height:1.25}
+  .sub{color:var(--ink-2);font-size:14px;line-height:1.65;margin:12px 0 0;max-width:62ch}
+  .sub b{color:var(--ink);font-weight:600}
+
+  .lede{
+    display:flex;gap:18px;align-items:baseline;flex-wrap:wrap;
+    background:var(--accent-soft);border-left:3px solid var(--s-int);
+    padding:16px 18px;border-radius:0 6px 6px 0;
+  }
+  .lede .n{font-family:"IBM Plex Sans",sans-serif;font-size:42px;font-weight:600;
+    color:var(--s-int);line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+  .lede .t{font-size:13.5px;color:var(--ink-2);line-height:1.6;flex:1;min-width:210px}
+  .lede .t b{color:var(--ink);font-weight:600}
+
+  .panel{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:22px 20px 18px}
+  .panel h2{font-size:14px;font-weight:600;margin:0;letter-spacing:-.005em}
+  .panel .note{font-size:12.5px;color:var(--ink-3);margin:5px 0 20px;line-height:1.55}
+
+  .legend{display:flex;gap:16px;flex-wrap:wrap;margin:0 0 18px}
+  .legend span{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--ink-2)}
+  .legend i{width:11px;height:11px;border-radius:2.5px;display:block}
+
+  .row{display:grid;grid-template-columns:minmax(96px,150px) 1fr;gap:14px;align-items:center;margin-bottom:11px}
+  .row .lab{font-size:12.5px;color:var(--ink-2);text-align:right;line-height:1.35}
+  .row .lab em{display:block;font-style:normal;font-size:10.5px;color:var(--ink-3);
+    font-family:"IBM Plex Mono",monospace}
+
+  .bar{display:flex;height:30px;border-radius:4px;overflow:hidden;gap:2px;background:transparent}
+  .seg{position:relative;display:flex;align-items:center;justify-content:center;min-width:2px;
+    transition:filter .12s}
+  .seg:first-child{border-radius:4px 0 0 4px}
+  .seg:last-child{border-radius:0 4px 4px 0}
+  .seg:hover{filter:brightness(1.12)}
+  .seg b{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:500;color:#fff;
+    font-variant-numeric:tabular-nums;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,.3)}
+
+  .mini{display:flex;align-items:center;gap:9px;height:22px}
+  .mini .track{flex:1;height:9px;background:var(--rule);border-radius:99px;overflow:hidden}
+  .mini .fill{height:100%;background:var(--s-int);border-radius:99px}
+  .mini .v{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink);width:44px;
+    text-align:right;font-variant-numeric:tabular-nums;font-weight:500}
+  .axis{display:flex;justify-content:space-between;font-family:"IBM Plex Mono",monospace;
+    font-size:10.5px;color:var(--ink-3);margin-top:4px;padding-left:164px}
+
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  .tw{overflow-x:auto}
+  th,td{padding:8px 10px;text-align:right;border-bottom:1px solid var(--rule);white-space:nowrap}
+  th{font-weight:500;color:var(--ink-3);font-size:11px;letter-spacing:.04em;text-transform:uppercase}
+  th:first-child,td:first-child{text-align:left}
+  td{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;color:var(--ink-2)}
+  td:first-child{font-family:inherit;color:var(--ink)}
+  tr.avg td{border-bottom:none;border-top:2px solid var(--rule);color:var(--ink);font-weight:500}
+  td.hi{color:var(--s-int);font-weight:500}
+
+  .tip{position:fixed;pointer-events:none;opacity:0;transition:opacity .1s;z-index:9;
+    background:var(--ink);color:var(--bg);font-size:11.5px;padding:6px 9px;border-radius:5px;
+    font-family:"IBM Plex Mono",monospace;white-space:nowrap}
+
+  footer{font-size:11.5px;color:var(--ink-3);line-height:1.7;border-top:1px solid var(--rule);padding-top:16px}
+  footer code{font-family:"IBM Plex Mono",monospace;font-size:11px}
+
+  @media (max-width:560px){
+    .row{grid-template-columns:1fr;gap:5px}
+    .row .lab{text-align:left}
+    .axis{padding-left:0}
+    h1{font-size:21px}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">TAI / IDI · RQ1 方法论前提</div>
+    <h1>六个单元的差异，几乎全部来自「产业是哪个学科」</h1>
+    <p class="sub">把每个指标的变异拆成四块：产业效应、城市效应、两者的交互、时间残差。
+      RQ1 问「香港三产业剖面与新加坡相比处于何种位置」——这个问题的答案
+      <b>完全落在交互项上</b>，因为只有交互项才是「城市特有的产业格局」。</p>
+  </header>
+
+  <div class="lede">
+    <div class="n">2.4%</div>
+    <div class="t">五个指标的<b>交互项平均占比</b>。相比之下产业效应平均占 <b>48.7%</b>。
+      按原始水平或排序回答 RQ1，答的是「生医论文比金融科技多」这类学科常识，不是香港的产业特征。</div>
+  </div>
+
+  <section class="panel">
+    <h2>方差分解</h2>
+    <p class="note">每条 = 100%。以「全部单元 × 全部季度」为冻结参照集做 z 标准化后分解。</p>
+    <div class="legend">
+      <span><i style="background:var(--s-ind)"></i>产业效应</span>
+      <span><i style="background:var(--s-city)"></i>城市效应</span>
+      <span><i style="background:var(--s-int)"></i>交互（RQ1 可答部分）</span>
+      <span><i style="background:var(--s-time)"></i>时间残差</span>
+    </div>
+    <div id="stack"></div>
+  </section>
+
+  <section class="panel">
+    <h2>交互项单独看（同一数据，0–10% 尺度）</h2>
+    <p class="note">上图里交互项被压成了一条线。放大后仍然没有一个指标达到 10%。</p>
+    <div id="mini"></div>
+    <div class="axis"><span>0%</span><span>5%</span><span>10%</span></div>
+  </section>
+
+  <section class="panel">
+    <h2>数据表</h2>
+    <p class="note">脚本 <code>scripts/industry_vs_city_decomp.py</code>，m8 采两城同剔档。</p>
+    <div class="tw">
+      <table>
+        <thead><tr><th>指标</th><th>产业</th><th>城市</th><th>交互</th><th>时间</th><th>期数</th></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    数据：<code>clean/</code> 与 <code>raw/</code> 的季度清洁序列，2015Q1–2024Q4。
+    m8 企业专利族窗口至 2023Q4（36 期），已剔除阿里系与蚂蚁系主体（两城同标准）。<br>
+    交互项自由度为 2，上述占比为描述性分解，非显著性检验结果。
+  </footer>
+</div>
+
+<div class="tip" id="tip"></div>
+
+<script>
+const DATA=[
+ {k:"m1_stock",l:"研究者存量",ind:83.0,city:0.1,int:0.1,time:16.8,n:40},
+ {k:"m1_flow", l:"新增作者",  ind:87.4,city:0.0,int:0.0,time:12.6,n:40},
+ {k:"m4",      l:"前10%高引占比",ind:36.7,city:0.2,int:0.0,time:63.0,n:40},
+ {k:"m7",      l:"国际合著比例",ind:1.7, city:14.4,int:5.9,time:78.1,n:40},
+ {k:"m8",      l:"企业专利族",ind:34.9,city:27.8,int:6.0,time:31.3,n:36}
+];
+const PARTS=[["ind","产业效应","--s-ind"],["city","城市效应","--s-city"],
+             ["int","交互","--s-int"],["time","时间残差","--s-time"]];
+const tip=document.getElementById("tip");
+const show=(e,t)=>{tip.textContent=t;tip.style.opacity=1;
+  tip.style.left=Math.min(e.clientX+12,innerWidth-tip.offsetWidth-10)+"px";
+  tip.style.top=(e.clientY-32)+"px";};
+const hide=()=>tip.style.opacity=0;
+
+const stack=document.getElementById("stack");
+DATA.forEach(d=>{
+  const row=document.createElement("div"); row.className="row";
+  row.innerHTML=`<div class="lab">${d.l}<em>${d.k} · ${d.n}期</em></div>`;
+  const bar=document.createElement("div"); bar.className="bar";
+  PARTS.forEach(([key,name,tok])=>{
+    const s=document.createElement("div"); s.className="seg";
+    s.style.flex=`0 0 ${d[key]}%`;
+    s.style.background=`var(${tok})`;
+    if(d[key]>=9) s.innerHTML=`<b>${d[key].toFixed(1)}%</b>`;
+    s.addEventListener("mousemove",e=>show(e,`${name}　${d[key].toFixed(1)}%`));
+    s.addEventListener("mouseleave",hide);
+    bar.appendChild(s);
+  });
+  row.appendChild(bar); stack.appendChild(row);
+});
+
+const mini=document.getElementById("mini");
+DATA.forEach(d=>{
+  const row=document.createElement("div"); row.className="row";
+  row.innerHTML=`<div class="lab">${d.l}<em>${d.k}</em></div>`;
+  const m=document.createElement("div"); m.className="mini";
+  m.innerHTML=`<div class="track"><div class="fill" style="width:${Math.min(d.int/10*100,100)}%"></div></div>
+               <span class="v">${d.int.toFixed(1)}%</span>`;
+  row.appendChild(m); mini.appendChild(row);
+});
+
+const tb=document.getElementById("tbody");
+DATA.forEach(d=>{
+  tb.insertAdjacentHTML("beforeend",
+    `<tr><td>${d.l}</td><td>${d.ind.toFixed(1)}</td><td>${d.city.toFixed(1)}</td>
+     <td class="hi">${d.int.toFixed(1)}</td><td>${d.time.toFixed(1)}</td><td>${d.n}</td></tr>`);
+});
+const avg=k=>(DATA.reduce((s,d)=>s+d[k],0)/DATA.length).toFixed(1);
+tb.insertAdjacentHTML("beforeend",
+  `<tr class="avg"><td>平均</td><td>${avg("ind")}</td><td>${avg("city")}</td>
+   <td class="hi">${avg("int")}</td><td>${avg("time")}</td><td>—</td></tr>`);
+</script>
