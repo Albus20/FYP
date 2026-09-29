@@ -2,8 +2,25 @@
 # Idempotent. ASCII only. Handles CJK filenames.
 # NOTE: ErrorActionPreference is Continue on purpose - git writes normal
 # informational output to stderr, which Stop would treat as fatal.
+#
+# Usage (the commit message is REQUIRED - describe what this commit changes):
+#   .\sync.ps1 -Message "J3/J4-2 ingested; RQ1 robustness check"
+#   .\sync.ps1 -Message "short summary" -Body "- detail 1`n- detail 2"
+# Chinese in the message is fine: it is written to a UTF-8 file and passed
+# to git with -F, so it is not garbled by the console code page.
+# (2026-09-29: the message used to be hard-coded, which is why commits from
+#  09-22 to 09-28 all carried the same "W3: log Jia's J1 return..." text.)
+
+param(
+    [Parameter(Mandatory = $true)][string]$Message,
+    [string]$Body = ""
+)
 
 $ErrorActionPreference = "Continue"
+if ([string]::IsNullOrWhiteSpace($Message)) {
+    Write-Host "STOP: commit message is empty." -ForegroundColor Red
+    exit 1
+}
 Set-Location "C:\FYP\data_repo"
 
 git config core.quotepath false
@@ -57,13 +74,18 @@ Write-Host "  OK"
 
 Write-Host ""
 Write-Host "[3/4] Commit..." -ForegroundColor Cyan
-$msg = "W3: log Jia's J1 return, add W3 task sheet, retire J6" + [char]10 + [char]10 +
-       "- raw/forward_panel/jobs_snapshot_2026-09-22.csv + manifest" + [char]10 +
-       "- tasks/: W3 task sheet, updated ledger, return-of-work archive" + [char]10 +
-       "- J6 retired: Google Patents shows inventor names only, no addresses;" + [char]10 +
-       "  source data has family_id but no publication numbers" + [char]10 +
-       "- Open question: 09-22 snapshot SHA-256 identical to 09-15"
-git -c user.name="TaricQiu" -c user.email="taricqiu@gmail.com" commit -m $msg
+$msg = $Message.Trim()
+if (-not [string]::IsNullOrWhiteSpace($Body)) { $msg = $msg + [char]10 + [char]10 + $Body.Trim() }
+$msgFile = Join-Path $env:TEMP ("fyp_commit_msg_{0}.txt" -f [guid]::NewGuid())
+[System.IO.File]::WriteAllText($msgFile, $msg, (New-Object System.Text.UTF8Encoding $false))
+git -c user.name="TaricQiu" -c user.email="taricqiu@gmail.com" -c i18n.commitEncoding=utf-8 commit -F $msgFile
+$commitExit = $LASTEXITCODE
+Remove-Item -LiteralPath $msgFile -ErrorAction SilentlyContinue
+if ($commitExit -ne 0) {
+    Write-Host "STOP: commit failed (exit $commitExit). Nothing was pushed." -ForegroundColor Red
+    [Console]::OutputEncoding = $prevEnc
+    exit 1
+}
 
 Write-Host ""
 Write-Host "[4/4] Push..." -ForegroundColor Cyan

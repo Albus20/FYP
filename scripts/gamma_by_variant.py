@@ -26,7 +26,7 @@ R1：只读既有清洁序列，不产生任何数据值。
 """
 import csv, collections, pathlib, statistics as st
 
-ROOT = pathlib.Path("/mnt/user-data/uploads/FYP/data_repo")
+ROOT = pathlib.Path(__file__).resolve().parents[1]   # 2026-09-29：原为写死的会话临时路径，组员机器上跑不了
 INDS = ("ai", "biomed", "fintech")
 CITIES = ("hk", "sg")
 

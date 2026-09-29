@@ -1,0 +1,14 @@
+{
+ "inputs": [
+  "clean/researchers_stock_by_quarter.csv",
+  "clean/top10pct_by_quarter.csv",
+  "clean/intl_collab_by_quarter.csv",
+  "raw/patents_families_by_quarter_company_asis.csv",
+  "raw/patents_families_by_quarter_company_ali_grp.csv",
+  "raw/patents_families_by_quarter_company_ali_ant_grp.csv"
+ ],
+ "script": "scripts/rq1_scale_robustness.py",
+ "method": "每指标×口径×刻度：全部单元×季度 z 标准化后做 产业/城市/交互/时间 分解；γ=单元均值−产业均值−城市均值+总均值（香港侧）。计数刻度：水平/√x/log(x+1)；比例刻度：水平/arcsin√p/经验 logit log((k+0.5)/(n−k+0.5))。",
+ "note": "派生统计量，不产生新的数据值（R1）。水平+全40期+ali_ant_grp 一档复现方法章改稿（2026-09-27）的方差分解表。",
+ "created_utc": "2026-09-29T05:26:31+00:00"
+}

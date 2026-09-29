@@ -230,8 +230,9 @@ def full_run():
         "query_or_method":
             "query.locn×StudyFirstPostDate 逐季度拉回全量记录，"
             "本地读 protocolSection.designModule.phases 归类。"
-            "不使用 AREA[Phase] 过滤——实测有约 13% 的试验没有 phases 字段，"
-            "任何 AREA[Phase]xxx 都筛不到（賈贇 2026-09-23 探针）。",
+            "不使用 AREA[Phase] 过滤——相当比例的试验没有 phases 字段"
+            "（賈贇 2026-09-23 探针单格 14/109≈13%；2026-09-28 全量 1,022/5,501=18.6%），"
+            "任何 AREA[Phase]xxx 都筛不到。",
         "collected_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "collected_by": by,
         "notes":
