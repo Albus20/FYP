@@ -5,7 +5,7 @@
   "query_or_method": "query.locn×StudyFirstPostDate 逐季度拉回全量记录，本地读 protocolSection.designModule.phases 归类。不使用 AREA[Phase] 过滤——实测有约 13% 的试验没有 phases 字段，任何 AREA[Phase]xxx 都筛不到（賈贇 2026-09-23 探针）。",
   "collected_utc": "2026-09-28T04:53:32+00:00",
   "collected_by": "賈贇",
-  "notes": "附录A指标9·IDI创新·按期别拆分。档位 NO_PHASE_FIELD = 没有 phases 字段，与取值 NA 是两回事，不可合并。多值组合照实记为 'PHASE1|PHASE2' 形式。逐格自检：每个城市×季度均满足 Σ(各档)==totalCount，否则脚本已停止。｜【事后更正 2026-09-29】query_or_method 中「约 13%」为 J4-1 探针单格比例（hk/2024Q1，14/109）；本文件全量实测 NO_PHASE_FIELD = 1,022/5,501 = 18.6%。回传时漏附请求日志（requests.tsv），待賈贇补发后放入 manifests/。数据文件未作任何改动，SHA256 与上一致。",
+  "notes": "附录A指标9·IDI创新·按期别拆分。档位 NO_PHASE_FIELD = 没有 phases 字段，与取值 NA 是两回事，不可合并。多值组合照实记为 'PHASE1|PHASE2' 形式。逐格自检：每个城市×季度均满足 Σ(各档)==totalCount，否则脚本已停止。｜【事后更正 2026-09-29】query_or_method 中「约 13%」为 J4-1 探针单格比例（hk/2024Q1，14/109）；本文件全量实测 NO_PHASE_FIELD = 1,022/5,501 = 18.6%。回传时漏附请求日志（requests.tsv），賈贇 2026-09-30 补发（随 J8 回传），已放入 manifests/，80 条＝2 城×40 季，与 request_count 一致。数据文件未作任何改动，SHA256 与上一致。",
   "manifest_version": 2,
   "request_log": "clinicaltrials_phase_by_quarter.csv.requests.tsv",
   "request_count": 80,

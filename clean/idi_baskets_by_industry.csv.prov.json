@@ -1,0 +1,15 @@
+{
+ "inputs": [
+  "raw/patents_families_by_quarter_company_ali_ant_grp.csv",
+  "raw/patents_families_by_quarter_company_asis.csv",
+  "raw/clinicaltrials_by_quarter.csv",
+  "raw/clinicaltrials_phase_by_quarter.csv",
+  "clean/payments_digital_by_year.csv",
+  "raw/worldbank_population_hk_sg.csv",
+  "clean/rq1_levels_trajectories.csv"
+ ],
+ "script": "scripts/idi_baskets.py",
+ "method": "各项港/星比值（总量、末期年均）等权几何平均；比值年变化＝两城 log(x+1) OLS 斜率之差（季度×4）；z 差＝两城各年 log(x+1) 合并标准化后末期港−星；检查 a–e 与判读规则按 docs/分产业产出篮子口径_2026-09-30.md。",
+ "note": "派生统计量（R1）。只做同产业港星对比，不跨产业、不进方差分解。分项比值已与 clean/rq1_levels_trajectories.csv 逐位核对。",
+ "created_utc": "2026-09-30T15:53:55+00:00"
+}

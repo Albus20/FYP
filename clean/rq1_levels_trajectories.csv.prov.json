@@ -1,0 +1,17 @@
+{
+ "inputs": [
+  "clean/researchers_stock_by_quarter.csv",
+  "clean/top10pct_by_quarter.csv",
+  "clean/topjournal_share_by_year.csv",
+  "clean/intl_collab_by_quarter.csv",
+  "raw/patents_families_by_quarter_company_ali_ant_grp.csv",
+  "raw/patents_families_by_quarter_company_asis.csv",
+  "raw/clinicaltrials_by_quarter.csv",
+  "raw/clinicaltrials_phase_by_quarter.csv",
+  "clean/fintech_licenses_by_quarter.csv"
+ ],
+ "script": "scripts/rq1_levels_trajectories.py",
+ "method": "同产业港星水平、期初(2015–17)/期末(2022–24 或 2021–23)合并比例、log(x+1) 季度 OLS 年化趋势、港/星比值。m1 只用窗口已满的季度；新增作者只用 usable 季度。",
+ "note": "派生统计量（R1）。m8 年化趋势与 RQ3 文档同法。",
+ "created_utc": "2026-09-29T07:49:31+00:00"
+}

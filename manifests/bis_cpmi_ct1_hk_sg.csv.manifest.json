@@ -1,0 +1,14 @@
+{
+  "file": "raw/bis_cpmi_ct1_hk_sg.csv",
+  "sha256": "54200e02687af1a61850f6d0c943480346f368af2aab9772b2ba0f8a9b9cca28",
+  "source_url": "https://data.bis.org/topics/CPMI_CT",
+  "query_or_method": "BIS SDMX API：WS_CPMI_CT1 1.0，key A.HK+SG........（两城全部年度序列），format=csv；响应原样保存",
+  "collected_utc": "2026-09-30T11:22:07+00:00",
+  "collected_by": "賈贇",
+  "notes": "J8·金融科技产出的替代口径（支付数字化，背景指标）。已知：香港电子货币 2017 年起、FPS 2018 年起；新加坡电子货币 2012 年起、FAST 2015 年起。电子货币笔数含交通卡；香港 2021 年起受消费券影响。序列选择与人均折算在 clean 层完成。",
+  "manifest_version": 2,
+  "request_log": "bis_cpmi_ct1_hk_sg.csv.requests.tsv",
+  "request_count": 1,
+  "example_request_url": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CPMI_CT1/1.0/A.HK+SG........?format=csv",
+  "request_log_note": "采集时逐条记录的真实请求 URL；已剔除 api_key 等密钥（不入库）与 mailto（不影响返回计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。"
+}

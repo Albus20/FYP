@@ -1,0 +1,10 @@
+{
+ "inputs": [
+  "raw/bis_cpmi_ct1_hk_sg.csv",
+  "raw/worldbank_population_hk_sg.csv"
+ ],
+ "script": "scripts/payments_build.py",
+ "method": "BIS WS_CPMI_CT1 按 SDMX 维度取笔数序列（快速支付 N/N/N/A；电子货币 M/N/N/I；借记卡 M/N/N/F；贷记卡 M/N/N/H），乘 UNIT_MULT 还原为笔，除以世界银行人口得每人每年笔数。不用金额。",
+ "note": "派生统计量（R1）。背景指标，只做年度港星对比。世界银行分母与 BIS 自算人均最大偏差 1.7%。香港快速支付 2018 年起（FPS 2018-09 上线），电子货币 2017 年起；电子货币含交通卡，两城不可比。",
+ "created_utc": "2026-09-30T14:57:54+00:00"
+}

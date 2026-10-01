@@ -1,0 +1,3 @@
+# 采集时逐条记录的真实请求 URL；已剔除 api_key 等密钥（不入库）与 mailto（不影响返回计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。
+row_key	request_url
+bis/ct1/hk+sg	https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CPMI_CT1/1.0/A.HK+SG........?format=csv
