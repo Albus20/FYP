@@ -1,0 +1,13 @@
+{
+ "inputs": [
+  "raw/openalex_intl_cn_by_quarter.csv",
+  "clean/intl_collab_by_quarter.csv（仅作一致性对照）"
+ ],
+ "manifests": [
+  "openalex_intl_cn_by_quarter.csv.manifest.json"
+ ],
+ "script": "scripts/m7_cn_sensitivity.py",
+ "method": "A=intl/works；B=(intl−cn_only)/works，两城同规则；B_hk=仅香港按 B。γ 与分解方法同 rq1_scale_robustness.py。",
+ "verdict": "主要由港—内地合作驱动：报告应写成「香港生医与内地联系紧密」，而不是「国际网络更强」。",
+ "created_utc": "2026-10-02T04:41:12+00:00"
+}

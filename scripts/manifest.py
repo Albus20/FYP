@@ -23,6 +23,22 @@ def sha256(p: Path) -> str:
             h.update(chunk)
     return h.hexdigest()
 
+def sha256_crlf(p: Path) -> str:
+    """把换行统一成 CRLF 后再算哈希。
+    2026-10-02 起加：采集脚本在 Windows 上用 csv 模块写出 CRLF 换行，manifest 按原始字节记哈希；
+    但 git 入库时（core.autocrlf）把换行统一成 LF，所以从 GitHub 拿到的文件逐字节哈希对不上。
+    内容没有任何改动——换回 CRLF 后哈希与 manifest 完全一致。verify 两种都认，并分开报告。"""
+    b = p.read_bytes().replace(b"\r\n", b"\n").replace(b"\n", b"\r\n")
+    return hashlib.sha256(b).hexdigest()
+
+def gitignored(rel: str) -> bool:
+    """.gitignore 里按完整路径排除的文件（研究者级底稿），在克隆下来的仓库里本来就不存在。"""
+    gi = ROOT / ".gitignore"
+    if not gi.exists():
+        return False
+    pats = {ln.strip() for ln in gi.read_text(encoding="utf-8").splitlines() if ln.strip() and not ln.startswith("#")}
+    return rel in pats
+
 def man_path(data_file: Path) -> Path:
     rel = data_file.resolve().relative_to(RAW.resolve())
     # ⚠️ as_posix() 不能省（2026-09-15 修）：Windows 上 str(rel) 是反斜杠，
@@ -54,7 +70,7 @@ def cmd_add(a):
     print(f"[OK] manifest 写入 {out.relative_to(ROOT)}  sha256={m['sha256'][:12]}…")
 
 def cmd_verify(_a):
-    problems, n = [], 0
+    problems, n, eol_only, ignored = [], 0, [], []
     for p in sorted(RAW.rglob("*")):
         if p.is_dir() or p.name == ".gitkeep":
             continue
@@ -68,7 +84,10 @@ def cmd_verify(_a):
             continue
         m = json.loads(mp.read_text(encoding="utf-8"))
         if m.get("sha256") != sha256(p):
-            problems.append(f"哈希不匹配（文件被改动？）：{p.relative_to(ROOT)}")
+            if m.get("sha256") == sha256_crlf(p):
+                eol_only.append(p.relative_to(ROOT).as_posix())
+            else:
+                problems.append(f"哈希不匹配（文件被改动？）：{p.relative_to(ROOT)}")
         # R4 可复核性：source_url 必须是能点开的真实地址，且 API 类数据要有逐行请求日志
         su = m.get("source_url", "") or ""
         if "{" in su or "}" in su:
@@ -104,10 +123,18 @@ def cmd_verify(_a):
                                 f"（跑之前要设 COLLECTOR_NAME）")
     # 反向：孤儿 manifest
     for mp in MAN.glob("*.manifest.json"):
-        f = ROOT / json.loads(mp.read_text(encoding="utf-8"))["file"].replace("\\", "/")
+        rel = json.loads(mp.read_text(encoding="utf-8"))["file"].replace("\\", "/")
+        f = ROOT / rel
         if not f.exists():
-            problems.append(f"孤儿 manifest（数据文件已不存在）：{mp.name}")
+            if gitignored(rel):
+                ignored.append(rel)
+            else:
+                problems.append(f"孤儿 manifest（数据文件已不存在）：{mp.name}")
     print(f"扫描 raw/ 数据文件 {n} 个")
+    if eol_only:
+        print(f"ℹ️  {len(eol_only)} 个文件只是换行符不同（git 入库时 CRLF 统一成了 LF），换回 CRLF 后哈希与 manifest 一致，内容未改动")
+    if ignored:
+        print(f"ℹ️  {len(ignored)} 个 manifest 对应的数据按 .gitignore 不入库（研究者级底稿），不算缺失：" + "、".join(ignored))
     if problems:
         print("❌ 未通过：")
         [print("  -", x) for x in problems]

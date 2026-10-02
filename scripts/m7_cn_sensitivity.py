@@ -90,7 +90,8 @@ if ref:
              if r["A"] is not None and (r["ind"], r["city"], r["q"]) in ref]
     print(f"\n① 一致性：本次口径 A 与 9/11 现行 m7 逐格差，均值 {st.mean(diffs) * 100:+.2f} 个百分点，"
           f"最大绝对差 {max(abs(d) for d in diffs) * 100:.1f}")
-    print("   （OpenAlex 会回溯改数，且 countries_distinct_count 与自数口径略有出入；均值在 ±2 以内可放心比较）")
+    print("   （两次计数口径相同（都按机构国家码自数），差异来自 OpenAlex 数据版本不同：9/11 与本批不是同一版本。"
+          "\n    A、B 两口径出自同一批，二者之间的比较不受影响）")
 
 # ② 构成：十年合计
 print("\n② 构成（2015–2024 合计）")

@@ -28,7 +28,9 @@ biomed,basket,percap,index,0.620638
 biomed,basket,patents_asis,index,0.801592
 biomed,basket,trials_phase3,index,0.659267
 biomed,trials,trials_phase3,ratio,1.178808
-biomed,basket,main,verdict,综合值低于新加坡，但分项方向相反（暂定：e 的企业申办一项待 J10）
+biomed,basket,trials_industry,index,0.598215
+biomed,trials,trials_industry,ratio,0.970588
+biomed,basket,main,verdict,综合值低于新加坡，但分项方向相反
 biomed,basket,main,mismatch,错配只对落后分项成立：企业专利族
 fintech,fast_payments,main,hk_late,546202333.333333
 fintech,fast_payments,main,sg_late,390729333.333333
