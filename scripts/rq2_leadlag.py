@@ -44,10 +44,18 @@ IDI 侧只有 m8（企业专利族）一条六单元序列：
 
 **以 p_block 为准。两者差距大本身就是结论的一部分。**
 
+**③ m1 只用窗口完整的季度（2026-10-02 组长定，与 RQ1 一致）**
+
+研究者存量的三年滚动窗口在前 11 季不完整（window_full=False），新增作者在 2018Q1 前有
+左截断偏误（new_authors_usable=False），见 clean/researchers_stock_by_quarter.csv.prov.json。
+9/27 首跑没有过滤这两段；10/2 起默认过滤，`--full-window` 可复现旧口径作对照。
+同时每个检验按「指标|单元」单独设随机种子，结果不随检验顺序或其他检验的样本量变化。
+
 ═══ 用法 ═══
 
     python scripts\rq2_leadlag.py                 # 主结果（预注册滞后 4 季）
     python scripts\rq2_leadlag.py --appendix      # 附全滞后网格（0–8 季）+ FDR 校正
+    python scripts\rq2_leadlag.py --full-window   # m1 用全 40 期（9/27 口径，仅作对照）
 
 R1：只读既有清洁序列，不产生任何数据值。
 """
@@ -74,12 +82,15 @@ random.seed(20260927)   # 置换检验可复现
 
 # ───────── 载入 ─────────
 
-def load(path, valcol, qcol="quarter"):
+def load(path, valcol, qcol="quarter", keep=None):
+    """keep：只保留该列为 True 的行（m1 的窗口完整／可用标记）。"""
     d = collections.defaultdict(dict)
     p = ROOT / path
     if not p.exists():
         return None
     for r in csv.DictReader(open(p, encoding="utf-8-sig")):
+        if keep and str(r.get(keep, "")).strip() != "True":
+            continue
         v = r.get(valcol, "")
         if v in ("", None):
             continue
@@ -180,20 +191,21 @@ def bh_fdr(pairs, q=0.05):
 
 # ───────── 主流程 ─────────
 
-TAI_SPEC = [
-    ("m1_stock 研究者存量", "clean/researchers_stock_by_quarter.csv", "unique_authors", "quarter", "count"),
-    ("m1_flow 新增作者",    "clean/researchers_stock_by_quarter.csv", "new_authors",    "quarter", "count"),
-    ("m4 前10%高引占比",    "clean/top10pct_by_quarter.csv",          "top10_share",    "period",  "share"),
-    ("m7 国际合著比例",     "clean/intl_collab_by_quarter.csv",       "intl_share",     "quarter", "share"),
+TAI_SPEC = [   # 最后一列：只保留该标记为 True 的季度（None = 不过滤）
+    ("m1_stock 研究者存量", "clean/researchers_stock_by_quarter.csv", "unique_authors", "quarter", "count", "window_full"),
+    ("m1_flow 新增作者",    "clean/researchers_stock_by_quarter.csv", "new_authors",    "quarter", "count", "new_authors_usable"),
+    ("m4 前10%高引占比",    "clean/top10pct_by_quarter.csv",          "top10_share",    "period",  "share", None),
+    ("m7 国际合著比例",     "clean/intl_collab_by_quarter.csv",       "intl_share",     "quarter", "share", None),
 ]
 IDI_PATH = "raw/patents_families_by_quarter_company_ali_ant_grp.csv"
 
 
-def main(appendix=False):
+def main(appendix=False, full_window=False):
     print("=" * 84)
     print("RQ2 探索性先行关联检验 —— TAI → IDI 创新维（企业专利族）")
     print("=" * 84)
-    print("⚠️ 先行关联，非因果。以下一律不作因果解读。\n")
+    print("⚠️ 先行关联，非因果。以下一律不作因果解读。")
+    print("m1 窗口：" + ("全 40 期（9/27 口径，仅作对照）" if full_window else "只用窗口完整的季度（10/2 定）") + "\n")
 
     idi_raw = load(IDI_PATH, "patent_families")
     if idi_raw is None:
@@ -213,8 +225,8 @@ def main(appendix=False):
         print()
 
     tais = []
-    for label, path, col, qc, kind in TAI_SPEC:
-        d = load(path, col, qc)
+    for label, path, col, qc, kind, keep in TAI_SPEC:
+        d = load(path, col, qc, None if full_window else keep)
         if d is None:
             print(f"  ! 缺 {path}，跳过 {label}")
             continue
@@ -233,6 +245,7 @@ def main(appendix=False):
                 continue
             x, y, n = paired(tg[u], idi_g[u], PREREG_LAG)
             r = pearson(x, y)
+            random.seed(f"{label}|{u[0]}/{u[1]}")      # 每个检验独立设种子
             if r is None:
                 print(f"{label:22s}{u[0]+'/'+u[1]:13s}{'—':>8}{n:>5}  方差为零，无法计算")
                 continue
@@ -301,7 +314,7 @@ def main(appendix=False):
     print("=" * 84)
     print("检验力 · 这个零结果能说明什么")
     print("=" * 84)
-    n = prereg[0][2] if prereg else 0
+    n = min(t[2] for t in prereg) if prereg else 0      # 取最短的一组（m1 过滤后对数最少）
     if n > 3:
         # Fisher z：双侧 α=.05、power=.80 下可侦测的最小 |r|
         se = 1 / math.sqrt(n - 3)
@@ -334,4 +347,6 @@ def main(appendix=False):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--appendix", action="store_true", help="附全滞后网格 0–8 季")
-    main(ap.parse_args().appendix)
+    ap.add_argument("--full-window", action="store_true", help="m1 用全 40 期（9/27 口径，仅作对照）")
+    a = ap.parse_args()
+    main(a.appendix, a.full_window)
