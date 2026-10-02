@@ -1,0 +1,159 @@
+PS C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP> python scripts\ct_sponsor_fetch.py --full
+[ 1/80] hk/2015Q1  total=42   INDUSTRY=11   缺字段=0
+[ 2/80] hk/2015Q2  total=42   INDUSTRY=15   缺字段=0
+[ 3/80] hk/2015Q3  total=35   INDUSTRY=16   缺字段=0
+[ 4/80] hk/2015Q4  total=43   INDUSTRY=23   缺字段=0
+[ 5/80] hk/2016Q1  total=44   INDUSTRY=17   缺字段=0
+[ 6/80] hk/2016Q2  total=49   INDUSTRY=19   缺字段=0
+[ 7/80] hk/2016Q3  total=42   INDUSTRY=17   缺字段=0
+[ 8/80] hk/2016Q4  total=51   INDUSTRY=17   缺字段=0
+[ 9/80] hk/2017Q1  total=57   INDUSTRY=24   缺字段=0
+[10/80] hk/2017Q2  total=71   INDUSTRY=21   缺字段=0
+[11/80] hk/2017Q3  total=70   INDUSTRY=8    缺字段=0
+[12/80] hk/2017Q4  total=79   INDUSTRY=20   缺字段=0
+[13/80] hk/2018Q1  total=55   INDUSTRY=19   缺字段=0
+[14/80] hk/2018Q2  total=56   INDUSTRY=26   缺字段=0
+[15/80] hk/2018Q3  total=101  INDUSTRY=26   缺字段=0
+[16/80] hk/2018Q4  total=78   INDUSTRY=20   缺字段=0
+[17/80] hk/2019Q1  total=84   INDUSTRY=17   缺字段=0
+[18/80] hk/2019Q2  total=86   INDUSTRY=19   缺字段=0
+[19/80] hk/2019Q3  total=110  INDUSTRY=27   缺字段=0
+[20/80] hk/2019Q4  total=84   INDUSTRY=16   缺字段=0
+[21/80] hk/2020Q1  total=83   INDUSTRY=22   缺字段=0
+[22/80] hk/2020Q2  total=97   INDUSTRY=20   缺字段=0
+[23/80] hk/2020Q3  total=96   INDUSTRY=29   缺字段=0
+[24/80] hk/2020Q4  total=98   INDUSTRY=26   缺字段=0
+[25/80] hk/2021Q1  total=91   INDUSTRY=30   缺字段=0
+[26/80] hk/2021Q2  total=108  INDUSTRY=18   缺字段=0
+[27/80] hk/2021Q3  total=88   INDUSTRY=24   缺字段=0
+[28/80] hk/2021Q4  total=84   INDUSTRY=24   缺字段=0
+[29/80] hk/2022Q1  total=95   INDUSTRY=25   缺字段=0
+[30/80] hk/2022Q2  total=122  INDUSTRY=28   缺字段=0
+[31/80] hk/2022Q3  total=107  INDUSTRY=16   缺字段=0
+[32/80] hk/2022Q4  total=88   INDUSTRY=19   缺字段=0
+[33/80] hk/2023Q1  total=90   INDUSTRY=10   缺字段=0
+[34/80] hk/2023Q2  total=99   INDUSTRY=21   缺字段=0
+[35/80] hk/2023Q3  total=78   INDUSTRY=19   缺字段=0
+[36/80] hk/2023Q4  total=108  INDUSTRY=26   缺字段=0
+[37/80] hk/2024Q1  total=109  INDUSTRY=22   缺字段=0
+[38/80] hk/2024Q2  total=120  INDUSTRY=29   缺字段=0
+[39/80] hk/2024Q3  total=95   INDUSTRY=18   缺字段=0
+[40/80] hk/2024Q4  total=110  INDUSTRY=31   缺字段=0
+[41/80] sg/2015Q1  total=44   INDUSTRY=20   缺字段=0
+[42/80] sg/2015Q2  total=29   INDUSTRY=14   缺字段=0
+[43/80] sg/2015Q3  total=36   INDUSTRY=17   缺字段=0
+[44/80] sg/2015Q4  total=45   INDUSTRY=27   缺字段=0
+[45/80] sg/2016Q1  total=35   INDUSTRY=12   缺字段=0
+[46/80] sg/2016Q2  total=64   INDUSTRY=21   缺字段=0
+[47/80] sg/2016Q3  total=42   INDUSTRY=21   缺字段=0
+[48/80] sg/2016Q4  total=48   INDUSTRY=28   缺字段=0
+[49/80] sg/2017Q1  total=55   INDUSTRY=28   缺字段=0
+[50/80] sg/2017Q2  total=63   INDUSTRY=22   缺字段=0
+[51/80] sg/2017Q3  total=53   INDUSTRY=15   缺字段=0
+[52/80] sg/2017Q4  total=48   INDUSTRY=25   缺字段=0
+[53/80] sg/2018Q1  total=62   INDUSTRY=16   缺字段=0
+[54/80] sg/2018Q2  total=48   INDUSTRY=15   缺字段=0
+[55/80] sg/2018Q3  total=72   INDUSTRY=34   缺字段=0
+[56/80] sg/2018Q4  total=61   INDUSTRY=25   缺字段=0
+[57/80] sg/2019Q1  total=40   INDUSTRY=17   缺字段=0
+[58/80] sg/2019Q2  total=55   INDUSTRY=16   缺字段=0
+[59/80] sg/2019Q3  total=62   INDUSTRY=22   缺字段=0
+[60/80] sg/2019Q4  total=47   INDUSTRY=24   缺字段=0
+[61/80] sg/2020Q1  total=69   INDUSTRY=24   缺字段=0
+[62/80] sg/2020Q2  total=67   INDUSTRY=20   缺字段=0
+[63/80] sg/2020Q3  total=67   INDUSTRY=23   缺字段=0
+[64/80] sg/2020Q4  total=80   INDUSTRY=32   缺字段=0
+[65/80] sg/2021Q1  total=63   INDUSTRY=35   缺字段=0
+[66/80] sg/2021Q2  total=54   INDUSTRY=25   缺字段=0
+[67/80] sg/2021Q3  total=86   INDUSTRY=30   缺字段=0
+[68/80] sg/2021Q4  total=61   INDUSTRY=28   缺字段=0
+[69/80] sg/2022Q1  total=63   INDUSTRY=16   缺字段=0
+[70/80] sg/2022Q2  total=71   INDUSTRY=29   缺字段=0
+[71/80] sg/2022Q3  total=69   INDUSTRY=30   缺字段=0
+[72/80] sg/2022Q4  total=53   INDUSTRY=24   缺字段=0
+[73/80] sg/2023Q1  total=60   INDUSTRY=19   缺字段=0
+[74/80] sg/2023Q2  total=54   INDUSTRY=30   缺字段=0
+[75/80] sg/2023Q3  total=53   INDUSTRY=22   缺字段=0
+[76/80] sg/2023Q4  total=45   INDUSTRY=22   缺字段=0
+[77/80] sg/2024Q1  total=54   INDUSTRY=18   缺字段=0
+[78/80] sg/2024Q2  total=58   INDUSTRY=19   缺字段=0
+[79/80] sg/2024Q3  total=61   INDUSTRY=23   缺字段=0
+[80/80] sg/2024Q4  total=60   INDUSTRY=20   缺字段=0
+
+写入 raw/clinicaltrials_sponsor_by_quarter.csv　246 行（5502 项试验，其中缺字段 0）
+请求日志 manifests/clinicaltrials_sponsor_by_quarter.csv.requests.tsv　80 条
+manifest manifests/clinicaltrials_sponsor_by_quarter.csv.manifest.json
+与 9/25 季度总数不同的格：1（库会缓慢更新，个位数差异属正常）
+
+完成。把 raw 下的 csv、manifests 下的两个文件、以及这段运行输出一起发给组长。
+PS C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP> $env:COLLECTOR_NAME = "賈贇"    
+PS C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP> py scripts\oa_intl_cn_probe.py --full
+从 .keys.env 载入：OPENALEX_KEY, OPENALEX_MAILTO
+OpenAlex API key：已设置　｜　采集人：賈贇
+[11:38:21] ai/hk：开始逐篇翻页
+[11:39:35]   ai/hk  第 25 页  已数 5,000 篇
+[11:40:46]   ai/hk  第 50 页  已数 10,000 篇
+[11:41:53]   ai/hk  第 75 页  已数 15,000 篇
+[11:41:55]   首页署名位次 1266，带机构 1200（95%），机构带国家码 1195
+[11:41:55]   ai/hk 完成：15,028 篇 / meta.count 15,028 / 76 页
+[11:41:55] ai/sg：开始逐篇翻页
+[11:43:07]   ai/sg  第 25 页  已数 5,000 篇
+[11:44:16]   ai/sg  第 50 页  已数 10,000 篇
+[11:45:22]   ai/sg  第 75 页  已数 15,000 篇
+[11:45:40]   首页署名位次 1300，带机构 1268（98%），机构带国家码 1266
+[11:45:40]   ai/sg 完成：16,209 篇 / meta.count 16,209 / 82 页
+[11:45:40] biomed/hk：开始逐篇翻页
+[11:47:20]   biomed/hk  第 25 页  已数 5,000 篇
+[11:48:48]   biomed/hk  第 50 页  已数 10,000 篇
+[11:50:11]   biomed/hk  第 75 页  已数 15,000 篇
+[11:51:33]   biomed/hk  第 100 页  已数 20,000 篇
+[11:52:58]   biomed/hk  第 125 页  已数 25,000 篇
+[11:54:19]   biomed/hk  第 150 页  已数 30,000 篇
+[11:55:39]   biomed/hk  第 175 页  已数 35,000 篇
+[11:56:55]   biomed/hk  第 200 页  已数 40,000 篇
+[11:58:11]   biomed/hk  第 225 页  已数 45,000 篇
+[11:59:25]   biomed/hk  第 250 页  已数 50,000 篇
+[12:00:43]   biomed/hk  第 275 页  已数 55,000 篇
+[12:01:57]   biomed/hk  第 300 页  已数 60,000 篇
+[12:03:09]   biomed/hk  第 325 页  已数 65,000 篇
+[12:04:32]   biomed/hk  第 350 页  已数 70,000 篇
+[12:04:43]   首页署名位次 6759，带机构 6194（92%），机构带国家码 6138
+[12:04:43]   biomed/hk 完成：70,648 篇 / meta.count 70,648 / 354 页
+[12:04:43] biomed/sg：开始逐篇翻页
+[12:06:27]   biomed/sg  第 25 页  已数 5,000 篇
+[12:08:03]   biomed/sg  第 50 页  已数 10,000 篇
+[12:09:29]   biomed/sg  第 75 页  已数 15,000 篇
+[12:10:54]   biomed/sg  第 100 页  已数 20,000 篇
+[12:12:21]   biomed/sg  第 125 页  已数 25,000 篇
+[12:13:45]   biomed/sg  第 150 页  已数 30,000 篇
+[12:15:07]   biomed/sg  第 175 页  已数 35,000 篇
+[12:16:28]   biomed/sg  第 200 页  已数 40,000 篇
+[12:17:49]   biomed/sg  第 225 页  已数 45,000 篇
+[12:19:07]   biomed/sg  第 250 页  已数 50,000 篇
+[12:20:24]   biomed/sg  第 275 页  已数 55,000 篇
+[12:21:39]   biomed/sg  第 300 页  已数 60,000 篇
+[12:23:07]   biomed/sg  第 325 页  已数 65,000 篇
+[12:24:21]   biomed/sg  第 350 页  已数 70,000 篇
+[12:25:35]   biomed/sg  第 375 页  已数 75,000 篇
+[12:26:50]   biomed/sg  第 400 页  已数 80,000 篇
+[12:27:37]   首页署名位次 7783，带机构 7244（93%），机构带国家码 7232
+[12:27:37]   biomed/sg 完成：82,831 篇 / meta.count 82,831 / 415 页
+[12:27:37] fintech_kw/hk：开始逐篇翻页
+[12:27:59]   首页署名位次 893，带机构 844（95%），机构带国家码 841
+[12:27:59]   fintech_kw/hk 完成：1,571 篇 / meta.count 1,571 / 8 页
+[12:27:59] fintech_kw/sg：开始逐篇翻页
+[12:28:19]   首页署名位次 781，带机构 729（93%），机构带国家码 728
+[12:28:19]   fintech_kw/sg 完成：1,363 篇 / meta.count 1,363 / 7 页
+[12:28:19] 请求日志 → openalex_intl_cn_by_quarter.csv.requests.tsv（6 条可点 URL，供 R4 复核）
+[12:28:19] manifest → openalex_intl_cn_by_quarter.csv.manifest.json
+[12:28:19] raw/openalex_intl_cn_by_quarter.csv 写入 240 行
+
+单元　　　　　　　翻页篇数　meta.count　页数　耗时
+  ai/hk              15,028     15,028    76  214s
+  ai/sg              16,209     16,209    82  225s
+  biomed/hk          70,648     70,648   354  1143s
+  biomed/sg          82,831     82,831   415  1374s
+  fintech_kw/hk       1,571      1,571     8  23s
+  fintech_kw/sg       1,363      1,363     7  19s
+
+完成 240 格。把 raw/openalex_intl_cn_by_quarter.csv、manifests/ 下同名的 manifest 与 requests.tsv、以及这段运行输出一起发给组长。
