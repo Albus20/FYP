@@ -1,0 +1,7 @@
+indicator,name,dimension,kind,share_city,hk_vs_sg,hk_vs_sg_unit,hk_vs_sg_ai,hk_vs_sg_biomed,hk_vs_sg_fintech,same_direction
+m1_stock,研究者存量,规模,count,0.0009,0.8979,ratio,0.8193,0.9490,0.9311,1
+m1_flow,新增作者,规模,count,0.0000,1.0193,ratio,0.9284,1.0769,1.0590,0
+m4,前10%高引占比,质量,share,0.0018,1.3898,pp,0.4679,1.5238,2.1778,1
+m7,国际合著（含港—内地）,网络,share,0.1437,10.9277,pp,6.4132,20.7998,5.5701,1
+m7_excl_cn,国际合著（扣除只与内地合作，10/2 采集）,网络,share,0.0867,-7.7463,pp,-8.8755,-12.7978,-1.5656,1
+m8,企业专利族,创新,count,0.2987,0.3089,ratio,0.2162,0.5233,0.2604,1

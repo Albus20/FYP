@@ -1,0 +1,91 @@
+city,industry,rank,assignee,families,category,group_hq,basis
+sg,ai,1,SENSETIME INT PTE LTD,142,hk_grp,香港,商汤集团：2014 年由港中大汤晓鸥创立，总部香港科学园（https://en.wikipedia.org/wiki/SenseTime）；新加坡主体 2018-01 注册，主营 IT 咨询（https://www.sgpbusiness.com/company/Sensetime-International-Pte-Ltd）
+sg,ai,2,LENOVO SINGAPORE PTE LTD,132,lenovo,香港注册／北京与美国运营,联想集团在港注册上市，研发主力在北京、美国、日本；Lenovo (Singapore) Pte Ltd 是其全球专利持有主体（https://patents.justia.com/assignee/lenovo-singapore-pte-ltd）；是否算「香港集团」不确定，故单列
+sg,ai,3,LEMON INC,128,mainland_grp,北京（字节跳动）,Lemon Inc. 为字节跳动知识产权持有子公司（https://patents.justia.com/assignee/lemon-inc ；https://www.musicbusinessworldwide.com/still-not-convinced-about-tiktoks-ai-music-ambitions-this-web-of-patents-and-trademarks-will-change-your-mind/）
+sg,ai,4,BIGO TECH PTE LTD,56,uncertain,新加坡登记／母公司欢聚（源自广州）,https://www.bloomberg.com/profile/company/1493464D:SP ；研发地不确定
+sg,ai,5,GRABTAXI HOLDINGS PTE LTD,44,local,新加坡（Grab）,
+sg,ai,6,MARVELL ASIA PTE LTD,21,foreign_mnc,美国,Marvell
+sg,ai,7,SMITH & NEPHEW ASIA PACIFIC PTE LTD,19,foreign_mnc,英国,施乐辉亚太主体
+sg,ai,8,MEDIATEK SINGAPORE PTE LTD,19,foreign_mnc,台湾,联发科
+sg,ai,9,AVAGO TECH INT SALES PTE LID,18,foreign_mnc,美国（2018 年前法定总部在新加坡）,Broadcom/Avago 知识产权主体；研发主力在美国
+sg,ai,10,SIVANTOS PTE LTD,15,foreign_mnc,丹麦／德国（WS Audiology）,西门子助听器 2015 年出售后的 Sivantos；2019 年并入 WS Audiology（丹麦）；研发主力在德国埃尔朗根（常识，待人工核）
+sg,ai,11,SUNIA PTE LTD,14,uncertain,未查到,手写识别；有加拿大关联（https://ca.linkedin.com/company/sunia-technology-inc）
+sg,ai,12,LEICA INSTR SINGAPORE PTE LTD,13,foreign_mnc,德国／美国（丹纳赫）,徕卡显微系统新加坡主体（有本地制造；仍属外国集团）
+sg,ai,13,RAKUTEN SYMPHONY SINGAPORE PTE LTD,12,foreign_mnc,日本,乐天
+sg,ai,14,ANX IP HOLDING PTE LTD,9,uncertain,未查到,名称为知识产权持有主体，母集团未查到
+sg,ai,15,RAPSODO PTE LTD,8,local,新加坡,本地企业（常识）
+sg,biomed,1,SMITH & NEPHEW ASIA PACIFIC PTE LTD,205,foreign_mnc,英国,施乐辉亚太主体
+sg,biomed,2,LEICA INSTR SINGAPORE PTE LTD,58,foreign_mnc,德国／美国（丹纳赫）,徕卡显微系统新加坡主体（有本地制造；仍属外国集团）
+sg,biomed,3,HYTTO PTE LTD,44,uncertain,新加坡（Lovense）,Lovense 维基称新加坡总部（https://en.wikipedia.org/wiki/Lovense）；研发地未核
+sg,biomed,4,ANX IP HOLDING PTE LTD,42,uncertain,未查到,名称为知识产权持有主体，母集团未查到
+sg,biomed,5,ResMed Asia Pte Ltd,37,foreign_mnc,美国／澳洲,瑞思迈亚洲主体
+sg,biomed,6,SIVANTOS PTE LTD,26,foreign_mnc,丹麦／德国（WS Audiology）,西门子助听器 2015 年出售后的 Sivantos；2019 年并入 WS Audiology（丹麦）；研发主力在德国埃尔朗根（常识，待人工核）
+sg,biomed,7,ILLUMINA SINGAPORE PTE LTD,22,foreign_mnc,美国,Illumina 新加坡（有制造）
+sg,biomed,8,WAVE LIFE SCIENCES LTD,20,foreign_mnc,美国（新加坡注册）,新加坡注册、运营与研发在美国麻省（常识，待人工核）
+sg,biomed,9,ASLAN PHARMACEUTICALS PTE LTD,19,local,新加坡,本地企业（常识）
+sg,biomed,10,HUIDAGENE THERAPEUTICS SINGAPORE PTE LTD,17,mainland_grp,上海（辉大基因）,辉大基因新加坡子公司（常识，待人工核）
+sg,biomed,11,HILL ROM SERVICES PTE LTD,16,foreign_mnc,美国,Hill-Rom（现 Baxter）
+sg,biomed,12,OXTI PTE LTD,14,uncertain,未查到,进出口记录显示有中国关联（https://www.volza.com/company-profile/oxti-pte-ltd-8975873/），未核
+sg,biomed,13,LUCENCE LIFE SCIENCES PTE LTD,11,local,新加坡,本地企业（常识）
+sg,biomed,14,ADAGENE PTE LTD,11,mainland_grp,苏州（天演药业）,天演药业研发在苏州（常识，待人工核）
+sg,biomed,15,PANEXO BIOTECH SG PTE LTD,11,uncertain,未查到,
+sg,fintech,1,MASTERCARD ASIA PACIFIC PTE LTD,16,foreign_mnc,美国,万事达
+sg,fintech,2,RAKUTEN SYMPHONY SINGAPORE PTE LTD,12,foreign_mnc,日本,乐天
+sg,fintech,3,GP NETWORK ASIA PTE LTD,11,local,新加坡（Grab）,
+sg,fintech,4,LENOVO SINGAPORE PTE LTD,8,lenovo,香港注册／北京与美国运营,联想集团在港注册上市，研发主力在北京、美国、日本；Lenovo (Singapore) Pte Ltd 是其全球专利持有主体（https://patents.justia.com/assignee/lenovo-singapore-pte-ltd）；是否算「香港集团」不确定，故单列
+sg,fintech,5,GRABTAXI HOLDINGS PTE LTD,6,local,新加坡（Grab）,
+sg,fintech,6,HYTTO PTE LTD,5,uncertain,新加坡（Lovense）,Lovense 维基称新加坡总部（https://en.wikipedia.org/wiki/Lovense）；研发地未核
+sg,fintech,7,DBS BANK LTD,3,local,新加坡,本地企业（常识）
+sg,fintech,8,ENVISION DIGITAL INT PTE LTD,3,mainland_grp,上海／江阴（远景）,远景集团数字业务海外主体（常识，待人工核）
+sg,fintech,9,TENPAY GLOBAL PTE LTD,3,mainland_grp,深圳（腾讯）,腾讯财付通海外主体（常识，待人工核）
+sg,fintech,10,MARVELL ASIA PTE LTD,3,foreign_mnc,美国,Marvell
+sg,fintech,11,LENOVO ENTPR SOLUTIONS SINGAPORE PTE LTD,2,lenovo,香港注册／北京与美国运营,联想集团在港注册上市，研发主力在北京、美国、日本；Lenovo (Singapore) Pte Ltd 是其全球专利持有主体（https://patents.justia.com/assignee/lenovo-singapore-pte-ltd）；是否算「香港集团」不确定，故单列
+sg,fintech,12,ISKY RES PTE LTD,2,unclassified,,
+sg,fintech,13,MASTERCARD ASIA,2,foreign_mnc,美国,万事达
+sg,fintech,14,MVGX TECH PTE LTD,2,local,新加坡,本地企业（常识）
+sg,fintech,15,TRAX TECHNOLOGY SOLUTIONS PTE LTD,2,uncertain,新加坡登记／以色列研发,
+hk,ai,1,CONTEMPORARY AMPEREX TECHNOLOGY HONG KONG LTD,46,mainland_grp,宁德（宁德时代）,宁德时代香港子公司（https://en.wikipedia.org/wiki/CATL）
+hk,ai,2,INSILICO MEDICINE IP LTD,11,local,香港,英矽智能总部香港科学园（https://www.biospace.com/hong-kong-s-insilico-medicine-raised-255-million-series-c）；研发多在上海等地
+hk,ai,3,LOGISTICS AND SUPPLY CHAIN MULTITECH R&D CENTRE LTD,7,public_misclass,香港,LSCM 为创科署法定研发中心、MSMRC 为 InnoHK 中心；速查表应为 public_rd
+hk,ai,4,MOFFETT INTERNATIONAL CO LTD,6,mainland_grp,深圳（墨芯）,墨芯人工智能（常识，待人工核）
+hk,ai,5,TOP VICTORY INVESTMENTS LTD,6,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,ai,6,MOFFETT INTERNATIONAL CO LIMITED,5,mainland_grp,深圳（墨芯）,墨芯人工智能（常识，待人工核）
+hk,ai,7,LUCAS GC LTD,5,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,ai,8,NEMO POWER TOOLS LTD,3,unclassified,,
+hk,ai,9,GOODIX TECH HK COMPANY LIMITED,3,mainland_grp,深圳（汇顶）,汇顶科技香港主体
+hk,ai,10,MOFFETT TECH CO LIMITED,2,mainland_grp,深圳（墨芯）,墨芯人工智能（常识，待人工核）
+hk,ai,11,BGI HEALTH HK COMPANY LTD,2,mainland_grp,深圳（华大）,华大香港主体
+hk,ai,12,CREEDON TECH HK LIMITED,2,unclassified,,
+hk,ai,13,WAVETOUCH LTD,2,unclassified,,
+hk,ai,14,COMPUTIME LTD,2,local,香港,本地企业（常识，待人工核）
+hk,ai,15,UNITED MICROELECTRONICS CENTRE HONG KONG LTD,2,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,biomed,1,INSILICO MEDICINE IP LTD,28,local,香港,英矽智能总部香港科学园（https://www.biospace.com/hong-kong-s-insilico-medicine-raised-255-million-series-c）；研发多在上海等地
+hk,biomed,2,TALENGEN INT LTD,13,mainland_grp,深圳（拓德）,拓德生命科学（常识，待人工核）
+hk,biomed,3,ASCENTAGE PHARMA GROUP CORP LTD,10,mainland_grp,苏州（亚盛）,亚盛医药总部苏州（常识）；R4 抽样族 74229126 的中国同族由苏州亚盛申请
+hk,biomed,4,HIFIBIO HK LTD,8,foreign_mnc,美国／上海,总部不在香港（美国或内地，未细分）
+hk,biomed,5,PREC ROBOTICS HONG KONG LIMITED,8,local,香港,本地企业（常识，待人工核）
+hk,biomed,6,MULTI SCALE MEDICAL ROBOTICS CENTER LTD,8,public_misclass,香港,LSCM 为创科署法定研发中心、MSMRC 为 InnoHK 中心；速查表应为 public_rd
+hk,biomed,7,ROTAM AGROCHEM INT CO LTD,7,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,biomed,8,RMW CHO GROUP LTD,7,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,biomed,9,CONTEMPORARY AMPEREX TECHNOLOGY HONG KONG LTD,6,mainland_grp,宁德（宁德时代）,宁德时代香港子公司（https://en.wikipedia.org/wiki/CATL）
+hk,biomed,10,FULL LIFE TECH HK LIMITED,6,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,biomed,11,FBD BIOLOGICS LTD,6,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,biomed,12,ACCRO BIOSCIENCE HK LTD,5,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,biomed,13,PUZHEN LIFE CO LTD,5,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,biomed,14,ANTENGENE BIOLOGICS LTD,5,mainland_grp,上海（德琪）,德琪医药（常识，待人工核）
+hk,biomed,15,ANTENGENE DISCOVERY LTD,5,mainland_grp,上海（德琪）,德琪医药（常识，待人工核）
+hk,fintech,1,BBPOS LTD,2,local,香港,本地企业（常识，待人工核）
+hk,fintech,2,ONANOFF LTD COMPANY LTD,2,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,fintech,3,FIFTH FORCE TECH LIMITED,2,unclassified,,
+hk,fintech,4,QALQON LTD,1,unclassified,,
+hk,fintech,5,ICALC HOLDINGS LTD,1,unclassified,,
+hk,fintech,6,EBATTE HOLDINGS LTD,1,unclassified,,
+hk,fintech,7,TFI DIGITAL MEDIA LTD,1,unclassified,,
+hk,fintech,8,ROEKETBC LTD,1,unclassified,,
+hk,fintech,9,TECTONIC TECH INNOVATION COMPANY LIMITED,1,unclassified,,
+hk,fintech,10,ORCHESTRALL HEALTHCARE LTD,1,unclassified,,
+hk,fintech,11,AI BIOMATERIAL HEALTHTECH LTD,1,unclassified,,
+hk,fintech,12,GLOBAL TAX REFUND HOLDINGS COMPANY LTD,1,unclassified,,
+hk,fintech,13,LUCAS GC LTD,1,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,fintech,14,MEDICONCEN LTD,1,unclassified,,
+hk,fintech,15,IX ASIA LTD,1,unclassified,,

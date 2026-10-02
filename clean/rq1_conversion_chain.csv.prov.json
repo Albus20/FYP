@@ -1,0 +1,15 @@
+{
+ "inputs": [
+  "clean/intl_collab_by_quarter.csv",
+  "clean/payments_digital_by_year.csv",
+  "clean/researchers_stock_by_quarter.csv",
+  "clean/rq1_levels_trajectories.csv",
+  "raw/clinicaltrials_by_quarter.csv",
+  "raw/clinicaltrials_sponsor_by_quarter.csv",
+  "raw/patents_families_by_quarter_*.csv"
+ ],
+ "script": "scripts/rq1_conversion_chain.py",
+ "method": "港/星比值。窗口与口径见脚本文件头；专利按申请人三分，企业档两城同剔阿里＋蚂蚁系。",
+ "note": "派生统计量（R1）。与 RQ1 表 1、产出篮子已发布比值逐位核对。",
+ "created_utc": "2026-10-02T07:35:11+00:00"
+}

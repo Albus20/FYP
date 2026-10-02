@@ -1,0 +1,14 @@
+{
+ "inputs": [
+  "clean/researchers_stock_by_quarter.csv",
+  "clean/top10pct_by_quarter.csv",
+  "clean/intl_collab_by_quarter.csv",
+  "raw/openalex_intl_cn_by_quarter.csv",
+  "raw/patents_families_by_quarter_company_ali_ant_grp.csv",
+  "clean/rq1_decomp_by_scale.csv（仅作核对）"
+ ],
+ "script": "scripts/rq1_city_main_effect.py",
+ "method": "城市效应占变异：与 rq1_scale_robustness.py 同一方差分解。hk_vs_sg：产业内各季港星之差（计数为 log(x+1) 之差）取平均，三产业等权平均；计数指标取 exp 得几何平均比值，比例指标为百分点。",
+ "note": "派生统计量（R1）。口径为 2026-10-02 组长定稿。城市效应只有 1 个自由度，是描述量而非检验结果。",
+ "created_utc": "2026-10-02T05:52:05+00:00"
+}

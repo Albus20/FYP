@@ -1,0 +1,22 @@
+industry,order,stage,group,window,hk,sg,ratio,low_count,source
+ai,1,研究者存量,research,2024Q4,5633.000000,5382.000000,1.046637,0,clean/rq1_levels_trajectories.csv
+ai,1.500000,研究者存量（2023Q4，与专利同窗）,research_aligned,2023Q4,4309.000000,4702.000000,0.916419,0,clean/researchers_stock_by_quarter.csv
+ai,2,论文数,research,2022–24 合计,5887.000000,5720.000000,1.029196,0,clean/intl_collab_by_quarter.csv
+ai,3,高引占比,research,2022–24 合并,0.363229,0.356401,1.019158,0,clean/rq1_levels_trajectories.csv
+ai,5,大学专利,univ_ip,2021–23 年均,15.666667,49.666667,0.315436,0,raw/patents_families_by_quarter_*.csv
+ai,6,企业专利,firm,2021–23 年均,50.000000,307.000000,0.162866,0,raw/patents_families_by_quarter_*.csv
+biomed,1,研究者存量,research,2024Q4,39612.000000,34972.000000,1.132678,0,clean/rq1_levels_trajectories.csv
+biomed,1.500000,研究者存量（2023Q4，与专利同窗）,research_aligned,2023Q4,36336.000000,34350.000000,1.057817,0,clean/researchers_stock_by_quarter.csv
+biomed,2,论文数,research,2022–24 合计,33546.000000,29819.000000,1.124987,0,clean/intl_collab_by_quarter.csv
+biomed,3,高引占比,research,2022–24 合并,0.312033,0.274940,1.134913,0,clean/rq1_levels_trajectories.csv
+biomed,4,临床试验（全部）,research,2022–24 年均,407.000000,233.333333,1.744286,0,raw/clinicaltrials_by_quarter.csv
+biomed,5,大学专利,univ_ip,2021–23 年均,52.666667,111.333333,0.473054,0,raw/patents_families_by_quarter_*.csv
+biomed,6,企业专利,firm,2021–23 年均,136.666667,370.666667,0.368705,0,raw/patents_families_by_quarter_*.csv
+biomed,7,企业申办临床试验,firm,2022–24 年均,88.000000,90.666667,0.970588,0,raw/clinicaltrials_sponsor_by_quarter.csv
+fintech,1,研究者存量,research,2024Q4,1158.000000,789.000000,1.467681,0,clean/rq1_levels_trajectories.csv
+fintech,1.500000,研究者存量（2023Q4，与专利同窗）,research_aligned,2023Q4,953.000000,712.000000,1.338483,0,clean/researchers_stock_by_quarter.csv
+fintech,2,论文数,research,2022–24 合计,850.000000,630.000000,1.349206,0,clean/intl_collab_by_quarter.csv
+fintech,3,高引占比,research,2022–24 合并,0.484637,0.447732,1.082427,0,clean/rq1_levels_trajectories.csv
+fintech,5,大学专利,univ_ip,2021–23 年均,0.333333,1.000000,0.333333,1,raw/patents_families_by_quarter_*.csv
+fintech,6,企业专利,firm,2021–23 年均,9.666667,44.333333,0.218045,0,raw/patents_families_by_quarter_*.csv
+fintech,8,快速支付笔数,public,2022–24 年均,546.202333,390.729333,1.397905,0,clean/payments_digital_by_year.csv

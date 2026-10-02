@@ -1,0 +1,74 @@
+city,pattern,category,group_hq,basis
+sg,^SENSETIME|^SENSETIMENTERNATIONAL,hk_grp,香港,商汤集团：2014 年由港中大汤晓鸥创立，总部香港科学园（https://en.wikipedia.org/wiki/SenseTime）；新加坡主体 2018-01 注册，主营 IT 咨询（https://www.sgpbusiness.com/company/Sensetime-International-Pte-Ltd）
+sg,^LENOVO,lenovo,香港注册／北京与美国运营,联想集团在港注册上市，研发主力在北京、美国、日本；Lenovo (Singapore) Pte Ltd 是其全球专利持有主体（https://patents.justia.com/assignee/lenovo-singapore-pte-ltd）；是否算「香港集团」不确定，故单列
+sg,^LEMON INC,mainland_grp,北京（字节跳动）,Lemon Inc. 为字节跳动知识产权持有子公司（https://patents.justia.com/assignee/lemon-inc ；https://www.musicbusinessworldwide.com/still-not-convinced-about-tiktoks-ai-music-ambitions-this-web-of-patents-and-trademarks-will-change-your-mind/）
+sg,^CLOUD INTELLIGENCE ASSETS,mainland_grp,杭州（阿里云）,主营「持有知识产权资产」、2023-07 注册、登记地址与阿里云新加坡等阿里主体同址（https://www.companies.sg/business/202328679C/CLOUD-INTELLIGENCE-ASSETS-HOLDING-SINGAPORE-PRIVATE-LIMITED）；未列入项目阿里剔除名单
+sg,^TENPAY GLOBAL,mainland_grp,深圳（腾讯）,腾讯财付通海外主体（常识，待人工核）
+sg,^HUIDAGENE,mainland_grp,上海（辉大基因）,辉大基因新加坡子公司（常识，待人工核）
+sg,^ADAGENE,mainland_grp,苏州（天演药业）,天演药业研发在苏州（常识，待人工核）
+sg,^ENVISION DIGITAL,mainland_grp,上海／江阴（远景）,远景集团数字业务海外主体（常识，待人工核）
+sg,^HUAWEI,mainland_grp,深圳（华为）,华为新加坡主体
+sg,^SHOPEE|^GARENA,local,新加坡（Sea）,Sea 集团总部新加坡
+sg,^SMITH & NEPHEW,foreign_mnc,英国,施乐辉亚太主体
+sg,^LEICA INSTR,foreign_mnc,德国／美国（丹纳赫）,徕卡显微系统新加坡主体（有本地制造；仍属外国集团）
+sg,^DH TECHNOLOGIES,foreign_mnc,美国（丹纳赫／SCIEX）,丹纳赫系知识产权主体（常识，待人工核）
+sg,^ResMed,foreign_mnc,美国／澳洲,瑞思迈亚洲主体
+sg,^SIVANTOS,foreign_mnc,丹麦／德国（WS Audiology）,西门子助听器 2015 年出售后的 Sivantos；2019 年并入 WS Audiology（丹麦）；研发主力在德国埃尔朗根（常识，待人工核）
+sg,^ILLUMINA,foreign_mnc,美国,Illumina 新加坡（有制造）
+sg,^WAVE LIFE SCIENCES,foreign_mnc,美国（新加坡注册）,新加坡注册、运营与研发在美国麻省（常识，待人工核）
+sg,^HILL ROM,foreign_mnc,美国,Hill-Rom（现 Baxter）
+sg,^FMC AGRO,foreign_mnc,美国,FMC 公司
+sg,^DELTA ELECTRONICS,foreign_mnc,台湾,台达电
+sg,^WISTA LAB,foreign_mnc,英国（TauRx）,TauRx 的新加坡注册主体（常识，待人工核）
+sg,^MARVELL,foreign_mnc,美国,Marvell
+sg,^MEDIATEK,foreign_mnc,台湾,联发科
+sg,^AVAGO,foreign_mnc,美国（2018 年前法定总部在新加坡）,Broadcom/Avago 知识产权主体；研发主力在美国
+sg,^RAKUTEN,foreign_mnc,日本,乐天
+sg,^MASTERCARD,foreign_mnc,美国,万事达
+sg,^AON ,foreign_mnc,英国／爱尔兰,Aon 分支
+sg,^BECTON DICKINSON,foreign_mnc,美国,BD
+sg,^CLOUD NETWORK TECH SINGAPORE,foreign_mnc,台湾（鸿海）,鸿海系专利主体（常识，待人工核）
+sg,^LINE BIZPLUS,foreign_mnc,日本／韩国,LINE
+sg,^UST GLOBAL,foreign_mnc,美国／印度,UST
+sg,^AMS OSRAM,foreign_mnc,奥地利／德国,ams OSRAM
+sg,^SCINOPHARM,foreign_mnc,台湾,台湾神隆
+sg,^INMOBI,foreign_mnc,印度,InMobi 研发在班加罗尔（常识，待人工核）
+sg,^VOYAGER INNOVATIONS,foreign_mnc,菲律宾,PLDT 旗下
+sg,^HEPTAGON,uncertain,新加坡→奥地利（2016 被 ams 收购）,收购前为本地公司
+sg,^BIGO,uncertain,新加坡登记／母公司欢聚（源自广州）,https://www.bloomberg.com/profile/company/1493464D:SP ；研发地不确定
+sg,^HYTTO,uncertain,新加坡（Lovense）,Lovense 维基称新加坡总部（https://en.wikipedia.org/wiki/Lovense）；研发地未核
+sg,^ANX IP HOLDING,uncertain,未查到,名称为知识产权持有主体，母集团未查到
+sg,^SUNIA,uncertain,未查到,手写识别；有加拿大关联（https://ca.linkedin.com/company/sunia-technology-inc）
+sg,^OXTI,uncertain,未查到,进出口记录显示有中国关联（https://www.volza.com/company-profile/oxti-pte-ltd-8975873/），未核
+sg,^PANEXO,uncertain,未查到,
+sg,^HCP HEALTHCARE ASIA,uncertain,未查到,
+sg,^FORTVITA,uncertain,未查到,疑为内地药企子公司
+sg,^HUIKE,uncertain,未查到,
+sg,^TRAX TECH,uncertain,新加坡登记／以色列研发,
+sg,^VELA OPERATIONS,uncertain,未查到,
+sg,^CREDO BIOMEDICAL,uncertain,未查到,
+sg,^EINNOVATIONS,uncertain,未查到,
+sg,^RAZER,local,新加坡／美国尔湾双总部,
+sg,^GRABTAXI|^GP NETWORK ASIA,local,新加坡（Grab）,
+sg,^DBS BANK|^PARTIOR|^MVGX|^RAPSODO|^CREATIVE TECH|^CERTIS|^TESSA|^LUCENCE|^ASLAN|^WILMAR|^HUMMINGBIRD|^MIRXES|^TACTILIS|^BITWAVE,local,新加坡,本地企业（常识）
+sg,^TEMASEK LIFE S,public_misclass,新加坡,按 docs/申请人三分归类速查.md 应为 public_rd
+sg,^SINGAPORE HEALTH SERV,public_misclass,新加坡,SingHealth 公立医疗；速查表应为 public_rd
+hk,^CONTEMPORARY AMPEREX,mainland_grp,宁德（宁德时代）,宁德时代香港子公司（https://en.wikipedia.org/wiki/CATL）
+hk,^GOODIX,mainland_grp,深圳（汇顶）,汇顶科技香港主体
+hk,^BGI ,mainland_grp,深圳（华大）,华大香港主体
+hk,^TALENGEN,mainland_grp,深圳（拓德）,拓德生命科学（常识，待人工核）
+hk,^ASCENTAGE,mainland_grp,苏州（亚盛）,亚盛医药总部苏州（常识）；R4 抽样族 74229126 的中国同族由苏州亚盛申请
+hk,^ANTENGENE,mainland_grp,上海（德琪）,德琪医药（常识，待人工核）
+hk,^MOFFETT,mainland_grp,深圳（墨芯）,墨芯人工智能（常识，待人工核）
+hk,^FUTURE MOBILITY,mainland_grp,南京（拜腾）,拜腾汽车
+hk,^TENCENT,mainland_grp,深圳（腾讯）,
+hk,^FIH HONG KONG|^Fg innovation,foreign_mnc,台湾（鸿海）,鸿海系
+hk,^NEC HONG KONG,foreign_mnc,日本,
+hk,^ARUZE,foreign_mnc,日本,
+hk,^HOVIONE,foreign_mnc,葡萄牙,
+hk,^HIFIBIO,foreign_mnc,美国／上海,总部不在香港（美国或内地，未细分）
+hk,^PLUSAI,foreign_mnc,美国／苏州,总部不在香港
+hk,^INSILICO,local,香港,英矽智能总部香港科学园（https://www.biospace.com/hong-kong-s-insilico-medicine-raised-255-million-series-c）；研发多在上海等地
+hk,^LUCAS GC|^TOP VICTORY|^UNITED MICROELECTRONICS CENTRE|^ACCRO|^ACERAND|^FULL LIFE|^FBD BIOLOGICS|^THUNDER POWER|^ROTAM|^NORTH & SOUTH BROTHER|^TENACIA|^PUZHEN|^RMW CHO|^ANTS TECH|^AEOLUS|^PANGU|^ONANOFF|^EPISODE SIX|^WIFIRE,uncertain,不确定,名称或公开信息提示可能属内地／外地集团，未核
+hk,^BBPOS|^COMPUTIME|^REHAB ROBOTICS|^TELEFIELD|^PREC ROBOTICS|^NOVOHEART|^PHASE SCIENT,local,香港,本地企业（常识，待人工核）
+hk,^LOGISTICS AND SUPPLY CHAIN MULTI|^MULTI SCALE MEDICAL ROBOTICS,public_misclass,香港,LSCM 为创科署法定研发中心、MSMRC 为 InnoHK 中心；速查表应为 public_rd

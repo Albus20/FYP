@@ -1,0 +1,12 @@
+{
+ "inputs": [
+  "raw/patents_families_raw.csv",
+  "config/patents_assignee_sector.csv",
+  "config/patents_assignee_geo_exclude.csv",
+  "config/patents_assignee_hq_class_draft.csv（草稿，待复核）"
+ ],
+ "script": "scripts/rq1_patent_geo_sensitivity.py",
+ "method": "家族级剔除／改归；log(港/星) 年斜率为准二项 logit（Pearson φ），95% CI。判读规则见脚本文件头（红队报告中先写定）。",
+ "note": "派生统计量（R1）。主口径与已发布序列逐年核对一致。",
+ "created_utc": "2026-10-02T07:34:19+00:00"
+}
