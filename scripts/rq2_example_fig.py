@@ -7,9 +7,11 @@ rq2_example_fig.py —— RQ2 图解：一项先行检验长什么样（AI · �
 
     python scripts\rq2_example_fig.py
     → docs/fig/rq2_fig1_example_ai_hk.png
+    python scripts\rq2_example_fig.py --label "图 5" --out docs/fig/report_fig5_rq2_example.png   # 报告底稿用（只改图号）
 
 R1：只读既有序列，不产生数据值。
 """
+import argparse
 import importlib.util
 import math
 import pathlib
@@ -19,6 +21,11 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location("rq2", ROOT / "scripts" / "rq2_leadlag.py")
 rq2 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(rq2)
+
+ap = argparse.ArgumentParser()
+ap.add_argument("--label", default="图 R2-1", help="图号")
+ap.add_argument("--out", default="docs/fig/rq2_fig1_example_ai_hk.png", help="输出路径（相对仓库根）")
+ARGS = ap.parse_args()
 
 UNIT = ("ai", "hk")
 LABEL = "m1_stock 研究者存量"      # 与 rq2_leadlag.TAI_SPEC 的标签一致（种子依赖它）
@@ -115,7 +122,7 @@ for lab in a1.get_xticklabels():
 a1.annotate(f"一对：{tq[k]} 人才 {tv[k]:+.1f}%\n配 {pq[k]} 专利 {pv[k]:+.0f}%", xy=(k, tv[k]), xytext=(-8, 26),
             textcoords="offset points", fontsize=7.5, color=INK2, ha="right")
 
-fig.suptitle("图 R2-1　一项先行检验长什么样：AI · 香港 · 研究者存量 → 一年后的企业专利",
+fig.suptitle(f"{ARGS.label}　一项先行检验长什么样：AI · 香港 · 研究者存量 → 一年后的企业专利",
              x=0.01, y=0.975, ha="left", fontsize=11, color=INK)
 fig.text(0.01, 0.925,
          f"上下两图同一竖线是一对（人才季度配一年后的专利季度），共 {n} 对。两图纵轴刻度相同。\n"
@@ -127,7 +134,7 @@ fig.text(0.01, 0.02,
          "数据：clean/researchers_stock_by_quarter.csv、raw/patents_families_by_quarter_company_ali_ant_grp.csv；检验：scripts/rq2_leadlag.py；本图：scripts/rq2_example_fig.py。",
          fontsize=6.8, color=MUTED, va="bottom")
 
-out = ROOT / "docs" / "fig" / "rq2_fig1_example_ai_hk.png"
+out = ROOT / ARGS.out
 out.parent.mkdir(parents=True, exist_ok=True)
 fig.savefig(out, dpi=200)
 print(f"已写出 {out.relative_to(ROOT)}")

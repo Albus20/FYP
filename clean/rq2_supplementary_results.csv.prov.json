@@ -1,0 +1,15 @@
+{
+ "inputs": [
+  "clean/researchers_stock_by_quarter.csv",
+  "clean/top10pct_by_quarter.csv",
+  "clean/intl_collab_by_quarter.csv",
+  "raw/patents_families_by_quarter_company_ali_ant_grp.csv",
+  "raw/clinicaltrials_by_quarter.csv",
+  "raw/clinicaltrials_sponsor_by_quarter.csv"
+ ],
+ "script": "scripts/rq2_supplementary.py",
+ "plan": "docs/RQ2补充分析计划_2026-10-02.md（跑之前写定，组长 10/2 确认）",
+ "method": "变换、滞后 4 季、配对、窗口同 scripts/rq2_leadlag.py；合并统计量为 Fisher z 按 (n−3) 加权平均；零分布为单元内分块打乱（块长 4 季）2,000 次；各项内部 BH-FDR q=0.05；通过者做留一检查。",
+ "note": "事后、探索性补充分析，不覆盖预注册主结果（0/24）。statistic 列：S1 与 S2-合并为合并相关 R，S2 为单元相关 r。",
+ "created_utc": "2026-10-02T11:31:28+00:00"
+}

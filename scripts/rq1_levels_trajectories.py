@@ -273,7 +273,7 @@ ax.set_xlabel("香港 ÷ 新加坡（对数刻度；1 = 持平）", color=INK2)
 ax.legend(loc="upper left", frameon=False, fontsize=8, handletextpad=0.3)
 ax.set_title("图 1　同产业港星比值：人才基础持平或更高，企业专利远低于新加坡", loc="left", fontsize=10, color=INK)
 fig.text(0.01, 0.005, "末期值：存量 2024Q4；新增作者 2024；比例 2022–24 合并；专利 2021–23 年均（两城同剔阿里+蚂蚁系）；临床试验 2022–24 年均，仅生医。"
-         "\n*含港—内地合著，待 J7 核实。", fontsize=6.5, color=MUTED, va="bottom")
+         "\n*含港—内地合著；两城同扣「只与内地两方合作」的论文后，2022–24 港/星为 AI 0.86、生医 0.78、金融科技 0.84（2026-10-02 采集，见正文）。", fontsize=6.5, color=MUTED, va="bottom")
 fig.tight_layout(rect=(0, 0.06, 1, 1))
 fig.savefig(figdir / "rq1_fig1_hk_sg_ratio.png", facecolor="white")
 plt.close(fig)
