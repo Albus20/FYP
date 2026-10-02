@@ -1,0 +1,14 @@
+{
+  "file": "raw/clinicaltrials_sponsor_by_quarter.csv",
+  "sha256": "2a21b03dc54238efa880a9139467c2735a1ff4b98ed6cc6ee95f6a7bc27c02a2",
+  "source_url": "https://clinicaltrials.gov/api/v2/studies",
+  "query_or_method": "query.locn×StudyFirstPostDate 逐季度拉回全量记录（fields=nctId,sponsorCollaboratorsModule），本地读 protocolSection.sponsorCollaboratorsModule.leadSponsor.class 归类。与 ct_phase_fetch.py 同法。",
+  "collected_utc": "2026-10-02T03:31:01+00:00",
+  "collected_by": "賈贇",
+  "notes": "J10·生医产出篮子稳健性检查 e（仅企业申办）。档位 NO_SPONSOR_CLASS = 记录里没有申办方类型字段，与取值 UNKNOWN 不同，不可合并；全量 0/5502。逐格自检：每个城市×季度均满足 Σ(各档)==totalCount，否则脚本已停止。与 9/25 季度总数（raw/clinicaltrials_by_quarter.csv）比对：80 格中 1 格不同：sg/2022Q1 62→63。差异来自库更新，非采集错误。",
+  "manifest_version": 2,
+  "request_log": "clinicaltrials_sponsor_by_quarter.csv.requests.tsv",
+  "request_count": 80,
+  "example_request_url": "https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2015-01-01%2C2015-03-31%5D&pageSize=200&countTotal=true&fields=protocolSection.identificationModule.nctId%2CprotocolSection.sponsorCollaboratorsModule",
+  "request_log_note": "采集时逐条记录的真实请求 URL。复核方法：点开 URL，核对 totalCount 是否等于该城市×季度各档 count 之和。"
+}

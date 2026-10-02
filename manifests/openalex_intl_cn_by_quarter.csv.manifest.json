@@ -1,0 +1,14 @@
+{
+  "file": "raw/openalex_intl_cn_by_quarter.csv",
+  "sha256": "2c39ff7dba56d5bb19491cdac8a0461267723e9d38ddbd2a18a427957b212ff2",
+  "source_url": "https://api.openalex.org/works",
+  "query_or_method": "6 单元 × 2015-01-01..2024-12-31 cursor 翻页（per_page=200，select=id,publication_date,authorships），按 publication_date 归季，本地数五个计数",
+  "collected_utc": "2026-10-02T04:28:19+00:00",
+  "collected_by": "賈贇",
+  "notes": "m7 国际合著的港—内地拆分（J7b，v2）。与 collect_openalex_master.py 同一数法：cursor 逐篇翻页，authorships[].institutions[].country_code 去重成集合；intl_works = 集合 ≥2；cn_any_works = 集合含 cn；cn_only_works = 集合恰为 {本城, cn}；intl_works_ac = 按 authorships[].countries 数 ≥2（OpenAlex 自带字段，仅作对照）。五列出自同一次翻页、同一 OpenAlex 数据版本。v1（meta.count + countries_distinct_count）2026-09-30 冒烟失败作废：同一 filter 的 works 在 9/28 与 9/30 相差 17%，OpenAlex 数据版本漂移。逐单元 翻页篇数/meta.count：ai/hk 15028/15028；ai/sg 16209/16209；biomed/hk 70648/70648；biomed/sg 82831/82831；fintech_kw/hk 1571/1571；fintech_kw/sg 1363/1363",
+  "manifest_version": 2,
+  "request_log": "openalex_intl_cn_by_quarter.csv.requests.tsv",
+  "request_count": 6,
+  "example_request_url": "https://api.openalex.org/works?filter=primary_topic.subfield.id%3A1702%2Cauthorships.institutions.country_code%3Ahk%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2024-12-31&select=id%2Cpublication_date%2Cauthorships&per_page=200&cursor=%2A",
+  "request_log_note": "每个单元 cursor 翻页的首页请求（cursor=*）；后续页的 cursor 令牌会过期，不记。已剔除 api_key 与 mailto。复核方法：点开 URL，meta.count 应≈本表该单元 40 个季度 works 之和（OpenAlex 数据会变，差几个百分点属正常，记录差值即可）。"
+}

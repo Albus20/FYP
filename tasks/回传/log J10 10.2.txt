@@ -1,0 +1,88 @@
+PS C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP> python scripts\ct_sponsor_fetch.py --full
+[ 1/80] hk/2015Q1  total=42   INDUSTRY=11   缺字段=0
+[ 2/80] hk/2015Q2  total=42   INDUSTRY=15   缺字段=0
+[ 3/80] hk/2015Q3  total=35   INDUSTRY=16   缺字段=0
+[ 4/80] hk/2015Q4  total=43   INDUSTRY=23   缺字段=0
+[ 5/80] hk/2016Q1  total=44   INDUSTRY=17   缺字段=0
+[ 6/80] hk/2016Q2  total=49   INDUSTRY=19   缺字段=0
+[ 7/80] hk/2016Q3  total=42   INDUSTRY=17   缺字段=0
+[ 8/80] hk/2016Q4  total=51   INDUSTRY=17   缺字段=0
+[ 9/80] hk/2017Q1  total=57   INDUSTRY=24   缺字段=0
+[10/80] hk/2017Q2  total=71   INDUSTRY=21   缺字段=0
+[11/80] hk/2017Q3  total=70   INDUSTRY=8    缺字段=0
+[12/80] hk/2017Q4  total=79   INDUSTRY=20   缺字段=0
+[13/80] hk/2018Q1  total=55   INDUSTRY=19   缺字段=0
+[14/80] hk/2018Q2  total=56   INDUSTRY=26   缺字段=0
+[15/80] hk/2018Q3  total=101  INDUSTRY=26   缺字段=0
+[16/80] hk/2018Q4  total=78   INDUSTRY=20   缺字段=0
+[17/80] hk/2019Q1  total=84   INDUSTRY=17   缺字段=0
+[18/80] hk/2019Q2  total=86   INDUSTRY=19   缺字段=0
+[19/80] hk/2019Q3  total=110  INDUSTRY=27   缺字段=0
+[20/80] hk/2019Q4  total=84   INDUSTRY=16   缺字段=0
+[21/80] hk/2020Q1  total=83   INDUSTRY=22   缺字段=0
+[22/80] hk/2020Q2  total=97   INDUSTRY=20   缺字段=0
+[23/80] hk/2020Q3  total=96   INDUSTRY=29   缺字段=0
+[24/80] hk/2020Q4  total=98   INDUSTRY=26   缺字段=0
+[25/80] hk/2021Q1  total=91   INDUSTRY=30   缺字段=0
+[26/80] hk/2021Q2  total=108  INDUSTRY=18   缺字段=0
+[27/80] hk/2021Q3  total=88   INDUSTRY=24   缺字段=0
+[28/80] hk/2021Q4  total=84   INDUSTRY=24   缺字段=0
+[29/80] hk/2022Q1  total=95   INDUSTRY=25   缺字段=0
+[30/80] hk/2022Q2  total=122  INDUSTRY=28   缺字段=0
+[31/80] hk/2022Q3  total=107  INDUSTRY=16   缺字段=0
+[32/80] hk/2022Q4  total=88   INDUSTRY=19   缺字段=0
+[33/80] hk/2023Q1  total=90   INDUSTRY=10   缺字段=0
+[34/80] hk/2023Q2  total=99   INDUSTRY=21   缺字段=0
+[35/80] hk/2023Q3  total=78   INDUSTRY=19   缺字段=0
+[36/80] hk/2023Q4  total=108  INDUSTRY=26   缺字段=0
+[37/80] hk/2024Q1  total=109  INDUSTRY=22   缺字段=0
+[38/80] hk/2024Q2  total=120  INDUSTRY=29   缺字段=0
+[39/80] hk/2024Q3  total=95   INDUSTRY=18   缺字段=0
+[40/80] hk/2024Q4  total=110  INDUSTRY=31   缺字段=0
+[41/80] sg/2015Q1  total=44   INDUSTRY=20   缺字段=0
+[42/80] sg/2015Q2  total=29   INDUSTRY=14   缺字段=0
+[43/80] sg/2015Q3  total=36   INDUSTRY=17   缺字段=0
+[44/80] sg/2015Q4  total=45   INDUSTRY=27   缺字段=0
+[45/80] sg/2016Q1  total=35   INDUSTRY=12   缺字段=0
+[46/80] sg/2016Q2  total=64   INDUSTRY=21   缺字段=0
+[47/80] sg/2016Q3  total=42   INDUSTRY=21   缺字段=0
+[48/80] sg/2016Q4  total=48   INDUSTRY=28   缺字段=0
+[49/80] sg/2017Q1  total=55   INDUSTRY=28   缺字段=0
+[50/80] sg/2017Q2  total=63   INDUSTRY=22   缺字段=0
+[51/80] sg/2017Q3  total=53   INDUSTRY=15   缺字段=0
+[52/80] sg/2017Q4  total=48   INDUSTRY=25   缺字段=0
+[53/80] sg/2018Q1  total=62   INDUSTRY=16   缺字段=0
+[54/80] sg/2018Q2  total=48   INDUSTRY=15   缺字段=0
+[55/80] sg/2018Q3  total=72   INDUSTRY=34   缺字段=0
+[56/80] sg/2018Q4  total=61   INDUSTRY=25   缺字段=0
+[57/80] sg/2019Q1  total=40   INDUSTRY=17   缺字段=0
+[58/80] sg/2019Q2  total=55   INDUSTRY=16   缺字段=0
+[59/80] sg/2019Q3  total=62   INDUSTRY=22   缺字段=0
+[60/80] sg/2019Q4  total=47   INDUSTRY=24   缺字段=0
+[61/80] sg/2020Q1  total=69   INDUSTRY=24   缺字段=0
+[62/80] sg/2020Q2  total=67   INDUSTRY=20   缺字段=0
+[63/80] sg/2020Q3  total=67   INDUSTRY=23   缺字段=0
+[64/80] sg/2020Q4  total=80   INDUSTRY=32   缺字段=0
+[65/80] sg/2021Q1  total=63   INDUSTRY=35   缺字段=0
+[66/80] sg/2021Q2  total=54   INDUSTRY=25   缺字段=0
+[67/80] sg/2021Q3  total=86   INDUSTRY=30   缺字段=0
+[68/80] sg/2021Q4  total=61   INDUSTRY=28   缺字段=0
+[69/80] sg/2022Q1  total=63   INDUSTRY=16   缺字段=0
+[70/80] sg/2022Q2  total=71   INDUSTRY=29   缺字段=0
+[71/80] sg/2022Q3  total=69   INDUSTRY=30   缺字段=0
+[72/80] sg/2022Q4  total=53   INDUSTRY=24   缺字段=0
+[73/80] sg/2023Q1  total=60   INDUSTRY=19   缺字段=0
+[74/80] sg/2023Q2  total=54   INDUSTRY=30   缺字段=0
+[75/80] sg/2023Q3  total=53   INDUSTRY=22   缺字段=0
+[76/80] sg/2023Q4  total=45   INDUSTRY=22   缺字段=0
+[77/80] sg/2024Q1  total=54   INDUSTRY=18   缺字段=0
+[78/80] sg/2024Q2  total=58   INDUSTRY=19   缺字段=0
+[79/80] sg/2024Q3  total=61   INDUSTRY=23   缺字段=0
+[80/80] sg/2024Q4  total=60   INDUSTRY=20   缺字段=0
+
+写入 raw/clinicaltrials_sponsor_by_quarter.csv　246 行（5502 项试验，其中缺字段 0）
+请求日志 manifests/clinicaltrials_sponsor_by_quarter.csv.requests.tsv　80 条
+manifest manifests/clinicaltrials_sponsor_by_quarter.csv.manifest.json
+与 9/25 季度总数不同的格：1（库会缓慢更新，个位数差异属正常）
+
+完成。把 raw 下的 csv、manifests 下的两个文件、以及这段运行输出一起发给组长。
