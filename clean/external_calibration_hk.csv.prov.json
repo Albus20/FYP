@@ -1,0 +1,11 @@
+{
+ "inputs": {
+  "clean/researchers_stock_by_quarter.csv": "57fc479ce2d0449b18e2a3b592ca8206e35a56c36db7ab345a24843353902e2d",
+  "clean/rnd_personnel_by_sector_series.csv": "6a3f3a67670486eb7f532bacb1f90eecfbfc9e62d14ff0c3059762850e8fa2ad",
+  "clean/investhk_total_staff_by_year.csv": "7d29069506f7a6114196fbabc5a3d7f2ad24a62f72bc13e547308d1450dc0191",
+  "clean/institutions_works_series.csv": "49ac063183ef1c681d2602c22076b2ca887b3f41ba8d82a13b1b6c03b644842c"
+ },
+ "script": "scripts/external_calibration.py",
+ "created_utc": "2026-10-04T06:41:37+00:00",
+ "notes": "口径约束见 tasks/姜同学.md 姜2（9/24 写定）；10/4 由 Claude 接手"
+}
