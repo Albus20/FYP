@@ -1,0 +1,13 @@
+{
+ "inputs": {
+  "raw/oecd_ai/linkedin_ai_hiring_index.zip": "a3d78f7bdcbf29600aab3d389d26823ec7638b2ac6afc39b972dc403f715d282",
+  "raw/oecd_ai/linkedin_ai_skills_migration.zip": "d5621f9fc33d064e6a5c95d530a88f850c94c031b0cc4c7154b624aa3098293e",
+  "raw/oecd_ai/linkedin_ai_talent_conc_country.zip": "d040661ba84a2c5f699c1ac1f1807ab56e7ce69590d8d1ae33025eab34cb657b",
+  "raw/oecd_ai/linkedin_ai_talent_conc_education.zip": "2e96bff8aa8226cbacc894f0ac3f27e4e91cae3be4a5c941eaa4102dd1216093",
+  "raw/oecd_ai/linkedin_ai_talent_conc_financial.zip": "a02ca6126411d3cbb5f524839e0acf12fd732d691facf6346bd1bbd3847a0cab",
+  "raw/oecd_ai/linkedin_ai_talent_conc_tech.zip": "b6e58be7bb0e7d98c06e8ae0f1bec5077fbf735520179c79a77c3ad4a946fb28"
+ },
+ "script": "scripts/linkedin_oecdai_build.py",
+ "created_utc": "2026-10-03T16:26:22+00:00",
+ "notes": "比值＝香港 ÷ 新加坡（同一年、同一行业的集中度）。净迁移去重 5 行。"
+}

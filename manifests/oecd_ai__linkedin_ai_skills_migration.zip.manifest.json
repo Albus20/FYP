@@ -1,0 +1,10 @@
+{
+  "file": "raw/oecd_ai/linkedin_ai_skills_migration.zip",
+  "sha256": "d5621f9fc33d064e6a5c95d530a88f850c94c031b0cc4c7154b624aa3098293e",
+  "source_url": "https://oecd.ai/en/data?selectedArea=ai-jobs-and-skills&selectedVisualization=between-country-ai-skills-migration&visualizationFiltersHash=eyJlbnRpdGllcyI6eyJDb3VudHJ5IjpbIlNHUCIsIkhLRyJdfX0%3D",
+  "query_or_method": "OECD.AI Live data 页面 → Download → Data (CSV)，下载的 zip 原样保存（内含 data.csv、metadata.txt）；只含页面所选两城 SGP、HKG",
+  "collected_utc": "2026-10-03T16:24:52+00:00",
+  "collected_by": "邱正陽（本人 Chrome；Claude 经 Claude in Chrome 点击官方下载按钮，组长 10/4 同意）",
+  "notes": "AI 技能人才跨国净迁移，每万名会员，2021–2025 年度；数据来自世界银行–LinkedIn 合作。⚠ 源文件中新加坡每年重复一行（值相同，页面表格亦如此），清洗层去重。页面引用：OECD.AI (2026), data from LinkedIn Economic Graph, last updated 2026-03-06。方法说明 https://oecd.ai/en/linkedin",
+  "manifest_version": 1
+}

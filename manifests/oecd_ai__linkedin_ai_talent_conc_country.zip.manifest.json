@@ -1,0 +1,10 @@
+{
+  "file": "raw/oecd_ai/linkedin_ai_talent_conc_country.zip",
+  "sha256": "d040661ba84a2c5f699c1ac1f1807ab56e7ce69590d8d1ae33025eab34cb657b",
+  "source_url": "https://oecd.ai/en/data?selectedArea=ai-jobs-and-skills&selectedVisualization=ai-talent-concentration-by-country&visualizationFiltersHash=eyJlbnRpdGllcyI6eyJDb3VudHJ5IjpbIlNHUCIsIkhLRyJdfX0%3D",
+  "query_or_method": "OECD.AI Live data 页面 → Download → Data (CSV)，下载的 zip 原样保存（内含 data.csv、metadata.txt）；只含页面所选两城 SGP、HKG",
+  "collected_utc": "2026-10-03T16:24:52+00:00",
+  "collected_by": "邱正陽（本人 Chrome；Claude 经 Claude in Chrome 点击官方下载按钮，组长 10/4 同意）",
+  "notes": "AI 人才集中度（全部会员）：至少 2 项 AI 工程技能或从事 AI 职位的会员 ÷ 该国会员，%，2016–2025 年度。页面引用：OECD.AI (2026), data from LinkedIn Economic Graph, last updated 2026-03-06。方法说明 https://oecd.ai/en/linkedin",
+  "manifest_version": 1
+}

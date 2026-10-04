@@ -1,0 +1,10 @@
+{
+  "file": "raw/oecd_ai/linkedin_ai_hiring_index.zip",
+  "sha256": "a3d78f7bdcbf29600aab3d389d26823ec7638b2ac6afc39b972dc403f715d282",
+  "source_url": "https://oecd.ai/en/data?selectedArea=ai-jobs-and-skills&selectedVisualization=ai-hiring-over-time&visualizationFiltersHash=eyJlbnRpdGllcyI6eyJDb3VudHJ5IjpbIlNHUCIsIkhLRyJdfX0%3D",
+  "query_or_method": "OECD.AI Live data 页面 → Download → Data (CSV)，下载的 zip 原样保存（内含 data.csv、metadata.txt）；只含页面所选两城 SGP、HKG",
+  "collected_utc": "2026-10-03T16:24:52+00:00",
+  "collected_by": "邱正陽（本人 Chrome；Claude 经 Claude in Chrome 点击官方下载按钮，组长 10/4 同意）",
+  "notes": "相对 AI 招聘指数：AI 人才招聘率相对整体招聘率之比的同比变化，%，3 个月移动平均，月度 2018-01 至 2026-01。页面引用：OECD.AI (2026), data from LinkedIn Economic Graph, last updated 2026-03-06。方法说明 https://oecd.ai/en/linkedin",
+  "manifest_version": 1
+}

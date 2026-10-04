@@ -1,0 +1,10 @@
+{
+  "file": "raw/oecd_ai/linkedin_ai_talent_conc_education.zip",
+  "sha256": "2e96bff8aa8226cbacc894f0ac3f27e4e91cae3be4a5c941eaa4102dd1216093",
+  "source_url": "https://oecd.ai/en/data?selectedArea=ai-jobs-and-skills&selectedVisualization=ai-talent-concentration-by-country-and-industry&visualizationFiltersHash=eyJlbnRpdGllcyI6eyJDb3VudHJ5IjpbIlNHUCIsIkhLRyJdfSwiZmlsdGVycyI6eyJJbmR1c3RyeSI6IkVkdWNhdGlvbiJ9fQ%3D%3D",
+  "query_or_method": "OECD.AI Live data 页面 → Download → Data (CSV)，下载的 zip 原样保存（内含 data.csv、metadata.txt）；只含页面所选两城 SGP、HKG；Industry=Education",
+  "collected_utc": "2026-10-03T16:24:52+00:00",
+  "collected_by": "邱正陽（本人 Chrome；Claude 经 Claude in Chrome 点击官方下载按钮，组长 10/4 同意）",
+  "notes": "AI 人才集中度（教育业会员）。香港 2016–2018 年样本不足、页面不给值，CSV 中无这三行。页面引用：OECD.AI (2026), data from LinkedIn Economic Graph, last updated 2026-03-06。方法说明 https://oecd.ai/en/linkedin",
+  "manifest_version": 1
+}
