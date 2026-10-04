@@ -1,0 +1,6 @@
+# 采集时逐条记录的真实请求 URL；已剔除 api_key 等密钥（不入库）与 mailto（不影响返回计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。
+row_key	request_url
+hk/p0	https://api.openalex.org/institutions?filter=country_code%3Ahk&select=id%2Cdisplay_name%2Cror%2Ctype%2Ccountry_code%2Cworks_count&per_page=200&cursor=%2A
+sg/p0	https://api.openalex.org/institutions?filter=country_code%3Asg&select=id%2Cdisplay_name%2Cror%2Ctype%2Ccountry_code%2Cworks_count&per_page=200&cursor=%2A
+sg/p1	https://api.openalex.org/institutions?filter=country_code%3Asg&select=id%2Cdisplay_name%2Cror%2Ctype%2Ccountry_code%2Cworks_count&per_page=200&cursor=IlsxMjksICdodHRwczovL29wZW5hbGV4Lm9yZy9JNDQwNTI3ODE1OSddIg%3D%3D
+sg/p2	https://api.openalex.org/institutions?filter=country_code%3Asg&select=id%2Cdisplay_name%2Cror%2Ctype%2Ccountry_code%2Cworks_count&per_page=200&cursor=Ils1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvSTQ0MDUyNTQ4MDgnXSI%3D

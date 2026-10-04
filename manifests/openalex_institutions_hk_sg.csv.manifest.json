@@ -1,0 +1,14 @@
+{
+  "file": "raw/openalex_institutions_hk_sg.csv",
+  "sha256": "2d43a79fa3a5a994d590e89e3f5ff0df7c3f826a8f4d1c490e8333150740466c",
+  "source_url": "https://api.openalex.org/institutions",
+  "query_or_method": "filter=country_code:hk / country_code:sg，全部类型，cursor 翻页；select=id,display_name,ror,type,country_code,works_count",
+  "collected_utc": "2026-10-04T13:12:39+00:00",
+  "collected_by": "賈贇",
+  "notes": "企业作者指标（docs/企业作者口径_2026-10-04.md）的机构类型表。类型是取数当天的 OpenAlex 标注，作者底稿是 9/11 采集的，两者时间不同，--build 会报告对不上类型的机构占比。",
+  "manifest_version": 2,
+  "request_log": "openalex_institutions_hk_sg.csv.requests.tsv",
+  "request_count": 4,
+  "example_request_url": "https://api.openalex.org/institutions?filter=country_code%3Ahk&select=id%2Cdisplay_name%2Cror%2Ctype%2Ccountry_code%2Cworks_count&per_page=200&cursor=%2A",
+  "request_log_note": "采集时逐条记录的真实请求 URL；已剔除 api_key 等密钥（不入库）与 mailto（不影响返回计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。"
+}

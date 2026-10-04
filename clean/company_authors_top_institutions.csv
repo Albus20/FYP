@@ -1,0 +1,31 @@
+﻿industry,city,period,inst_id,display_name,authors,share_of_company_authors
+ai,hk,2022-2024,I4387155976,Laboratory of Data Discovery for Health,4,1.0
+ai,sg,2022-2024,I4210103465,Deutsche Telekom (Singapore),15,0.163
+ai,sg,2022-2024,I882086362,Wipro (Singapore),14,0.1522
+ai,sg,2022-2024,I130653702,Creative Technology (Singapore),10,0.1087
+ai,sg,2022-2024,I4210155759,Merck (Singapore),10,0.1087
+ai,sg,2022-2024,I4210139109,Entropica Labs (Singapore),9,0.0978
+ai,sg,2022-2024,I4210102879,Applied Materials (Singapore),6,0.0652
+ai,sg,2022-2024,I4210114036,AstraZeneca (Singapore),5,0.0543
+ai,sg,2022-2024,I4210144559,Kulicke & Soffa (Singapore),4,0.0435
+ai,sg,2022-2024,I4210124465,Novartis (Singapore),3,0.0326
+ai,sg,2022-2024,I4210136319,Raytheon Technologies (Singapore),2,0.0217
+biomed,hk,2022-2024,I4387155976,Laboratory of Data Discovery for Health,124,0.9688
+biomed,hk,2022-2024,I4210164056,OrbusNeich (China),4,0.0312
+biomed,sg,2022-2024,I4210114036,AstraZeneca (Singapore),838,0.5129
+biomed,sg,2022-2024,I4210101515,Eli Lilly (Singapore),99,0.0606
+biomed,sg,2022-2024,I882086362,Wipro (Singapore),80,0.049
+biomed,sg,2022-2024,I4210155759,Merck (Singapore),73,0.0447
+biomed,sg,2022-2024,I4210102399,Johnson & Johnson (Singapore),59,0.0361
+biomed,sg,2022-2024,I4210138962,Tessa Therapeutic (Singapore),47,0.0288
+biomed,sg,2022-2024,I130653702,Creative Technology (Singapore),43,0.0263
+biomed,sg,2022-2024,I4210128816,Kyowa Hakko Kirin (Singapore),39,0.0239
+biomed,sg,2022-2024,I4210124465,Novartis (Singapore),39,0.0239
+biomed,sg,2022-2024,I4210136567,GlobalFoundries (Singapore),34,0.0208
+fintech,hk,2022-2024,I4387155976,Laboratory of Data Discovery for Health,11,1.0
+fintech,sg,2022-2024,I4210103465,Deutsche Telekom (Singapore),6,0.3333
+fintech,sg,2022-2024,I4210114036,AstraZeneca (Singapore),3,0.1667
+fintech,sg,2022-2024,I130653702,Creative Technology (Singapore),3,0.1667
+fintech,sg,2022-2024,I4210102580,Albany Molecular Research (Singapore),2,0.1111
+fintech,sg,2022-2024,I4210155759,Merck (Singapore),2,0.1111
+fintech,sg,2022-2024,I4210089308,AMS (Singapore),2,0.1111
