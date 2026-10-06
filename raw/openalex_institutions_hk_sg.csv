@@ -1,0 +1,604 @@
+city,inst_id,display_name,ror,type,country_code,works_count
+hk,I889458895,University of Hong Kong,https://ror.org/02zhqgq86,education,hk,202864
+hk,I177725633,Chinese University of Hong Kong,https://ror.org/00t33hh48,education,hk,196320
+hk,I14243506,Hong Kong Polytechnic University,https://ror.org/0030zas98,education,hk,160281
+hk,I168719708,City University of Hong Kong,https://ror.org/03q8dnn23,education,hk,119481
+hk,I200769079,Hong Kong University of Science and Technology,https://ror.org/00q4vv597,education,hk,100478
+hk,I141568987,Hong Kong Baptist University,https://ror.org/0145fw131,education,hk,37327
+hk,I4210086892,Education University of Hong Kong,https://ror.org/000t0f062,education,hk,17165
+hk,I165488957,Lingnan University,https://ror.org/0563pg902,education,hk,11040
+hk,I8679417,Hong Kong Metropolitan University,https://ror.org/0349bsm71,education,hk,6317
+hk,I4210131216,Princess Margaret Hospital,https://ror.org/03jrxta72,healthcare,hk,3723
+hk,I1294586568,Hospital Authority,https://ror.org/05sn8t512,government,hk,2448
+hk,I47605537,Hang Seng University of Hong Kong,https://ror.org/04fa64g55,education,hk,2374
+hk,I2800550174,Government of Hong Kong,https://ror.org/034179816,government,hk,2211
+hk,I4391768037,State Key Laboratory of Marine Pollution,https://ror.org/03w60rc21,facility,hk,2153
+hk,I4210100061,Hong Kong Sanatorium and Hospital,https://ror.org/010mjn423,funder,hk,1721
+hk,I4405263233,Hong Kong Children's Hospital,https://ror.org/0476qkr33,healthcare,hk,1335
+hk,I1877545,Saint Francis University,https://ror.org/01wcz2f33,education,hk,1332
+hk,I107182072,Tung Wah College,https://ror.org/04jfz0g97,education,hk,1232
+hk,I2801577029,North District Hospital,https://ror.org/00rh36007,healthcare,hk,1224
+hk,I4210100650,Hong Kong Jockey Club,https://ror.org/015ygrv52,nonprofit,hk,1206
+hk,I4405271094,State Key Laboratory of Environmental and Biological Analysis,https://ror.org/01vjmeb47,facility,hk,1178
+hk,I4387155976,Laboratory of Data Discovery for Health,https://ror.org/02mbz1h25,company,hk,1109
+hk,I2800906782,Hong Kong Science and Technology Parks Corporation,https://ror.org/05q8mqd91,nonprofit,hk,962
+hk,I4400573269,Technological and Higher Education Institute of Hong Kong,https://ror.org/0209mnq24,education,hk,923
+hk,I4405255778,Kadoorie Farm and Botanic Garden,https://ror.org/03dqw6d47,nonprofit,hk,706
+hk,I4405272381,Hong Kong Institute for Monetary and Financial Research,https://ror.org/043bj9t05,other,hk,643
+hk,I2801606333,Yan Chai Hospital,https://ror.org/03y191s38,healthcare,hk,585
+hk,I178968375,Hong Kong Chu Hai College,https://ror.org/021a2zz52,education,hk,523
+hk,I4210142478,HKU-Pasteur Research Pole,https://ror.org/03wwjjr94,facility,hk,481
+hk,I4405270569,Lui Che Woo Institute of Innovative Medicine,https://ror.org/00y8ke806,other,hk,358
+hk,I4210134710,Ming Wai Lau Centre for Reparative Medicine,https://ror.org/03j0jxk49,facility,hk,344
+hk,I1318643470,Union Hospital,https://ror.org/01j7r2734,healthcare,hk,341
+hk,I2801172547,Pok Oi Hospital,https://ror.org/04fcpzp05,healthcare,hk,328
+hk,I2802970959,University Grants Committee,https://ror.org/00djwmt25,government,hk,303
+hk,I4405270501,Centre for Perceptual and Interactive Intelligence,https://ror.org/00tdmgp49,facility,hk,291
+hk,I17523332,Hong Kong Productivity Council,https://ror.org/00p6ghq98,other,hk,244
+hk,I144743875,Vocational Training Council,https://ror.org/02pvbz391,government,hk,240
+hk,I4210138689,Hong Kong Baptist Hospital,https://ror.org/04nfhy837,healthcare,hk,182
+hk,I4405267026,HUTCHMED (China) Limited (China),https://ror.org/00wnvbd12,company,hk,179
+hk,I4405278890,AME Publishing Company (Hong Kong),https://ror.org/00q4hxs10,company,hk,167
+hk,I4210119692,Numerical Method (China),https://ror.org/02ns8zp42,company,hk,99
+hk,I4405270588,Drainage Services Department,https://ror.org/01001je15,government,hk,97
+hk,I2800475679,Social Welfare Department,https://ror.org/01qcc6q77,government,hk,70
+hk,I4405261188,Hong Kong Centre for Logistics Robotics,https://ror.org/04xzpxc31,facility,hk,63
+hk,I4210150385,Innovation Team (China),https://ror.org/04ttbbx73,company,hk,60
+hk,I2799667844,Ocean Park Conservation Foundation,https://ror.org/052hvz838,other,hk,57
+hk,I4210153806,Innovation and Technology Commission,https://ror.org/04vf9tr09,government,hk,49
+hk,I4210101306,Integrated Chinese Medicine (China),https://ror.org/01ahf6552,company,hk,40
+hk,I4405267798,Hong Kong Sheng Kung Hui Welfare Council Limited,https://ror.org/04d67ra42,nonprofit,hk,38
+hk,I4405279968,Pfizer (Hong Kong),https://ror.org/028b8g929,company,hk,37
+hk,I4405281815,Airport Authority Hong Kong,https://ror.org/04xxn4x09,government,hk,35
+hk,I4405268208,Construction Industry Council,https://ror.org/0072ge024,government,hk,31
+hk,I4405273205,Hong Kong Breast Cancer Foundation,https://ror.org/05fe00z36,nonprofit,hk,27
+hk,I4405254954,Yew Chung Yew Wah Education Network,https://ror.org/02eb12f53,education,hk,26
+hk,I4210123688,Hong Kong Anti-Cancer Society,https://ror.org/024z2zn95,other,hk,22
+hk,I4210107007,Hong Kong Research Institute of Textiles and Apparel,https://ror.org/01h2ykt31,facility,hk,15
+hk,I4210161718,Goodbaby (China),https://ror.org/058ttvb80,company,hk,14
+hk,I4405263762,Hong Kong Microelectronics Research and Development Institute,https://ror.org/05xrrkv56,government,hk,14
+hk,I4405259946,Hong Kong Jockey Club Charities Trust,https://ror.org/02z8pdw35,funder,hk,11
+hk,I4405267607,Hong Kong College of Emergency Medicine,https://ror.org/03h7x3731,education,hk,11
+hk,I4405269545,Environment and Ecology Bureau,https://ror.org/04g87qg77,government,hk,11
+hk,I4405282430,Hong Kong Cancer Fund,https://ror.org/05ty08124,nonprofit,hk,11
+hk,I4210148262,Croucher Foundation,https://ror.org/04741mc34,other,hk,10
+hk,I4210147963,Hong Kong Society of Nephrology,https://ror.org/03w093j43,nonprofit,hk,8
+hk,I4405256756,Asia Technology Research Institute,https://ror.org/04gm7z490,company,hk,7
+hk,I4405267094,Bank of China (Hong Kong) Limited (China),https://ror.org/016ztcd50,company,hk,7
+hk,I4405270113,Securities and Futures Commission,https://ror.org/003g5e791,government,hk,7
+hk,I4405269298,Centre for Applied Computing and Interactive Media,https://ror.org/03r2tsn04,facility,hk,6
+hk,I4210153530,Policy Innovation and Co-ordination Office,https://ror.org/052p8vb75,government,hk,5
+hk,I4210164056,OrbusNeich (China),https://ror.org/05g9af661,company,hk,4
+hk,I4210111784,Cell Technology (China),https://ror.org/01txhcw25,company,hk,3
+hk,I4210118563,NGIS (China),https://ror.org/02a773244,company,hk,3
+hk,I4405254196,Southern United Academy of Sciences Limited,https://ror.org/01hp34w32,company,hk,2
+hk,I4405265948,"Jiying Technology Co., Ltd (China)",https://ror.org/028brdw93,company,hk,2
+hk,I4405272493,Morningside Foundation,https://ror.org/04872zt82,nonprofit,hk,2
+hk,I4405279068,Asian Finance Association,https://ror.org/00z83j474,nonprofit,hk,2
+hk,I4405269052,WYNG Foundation,https://ror.org/02ypyfd45,nonprofit,hk,1
+hk,I4405263125,SHIHARR PUBLISHING LIMITED (Hong Kong),https://ror.org/02w0z9h71,company,hk,0
+hk,I4405265862,The Shaw Prize Foundation,https://ror.org/05xa4j098,funder,hk,0
+hk,I4405268165,Standing Committee on Language Education and Research,https://ror.org/002nh6j43,government,hk,0
+hk,I4405268945,Hong Kong Arts Development Council,https://ror.org/02j3g3z79,government,hk,0
+hk,I4405269234,Lo Ying Shek Chi Wai Foundation,https://ror.org/03gw0wr35,nonprofit,hk,0
+hk,I4405269283,Lee Kum Kee Family Foundation,https://ror.org/03p1wjm46,nonprofit,hk,0
+hk,I4405269889,Hutchison Whampoa Limited (Hong Kong),https://ror.org/05hyy0r02,company,hk,0
+hk,I4405270100,Wofoo Foundation,https://ror.org/002rs4319,nonprofit,hk,0
+hk,I4405270375,Lee Hysan Foundation,https://ror.org/00jspma72,nonprofit,hk,0
+hk,I4405270700,Philip K.H. Wong Foundation,https://ror.org/016e2t551,nonprofit,hk,0
+hk,I4405271018,Tin Ka Ping Foundation,https://ror.org/01qm62188,nonprofit,hk,0
+hk,I4405271393,Ng Teng Fong Charitable Foundation,https://ror.org/02cd3vf92,nonprofit,hk,0
+hk,I4405272202,Kadoorie Charitable Foundation,https://ror.org/03r5nvr96,nonprofit,hk,0
+hk,I4405272847,Chau Hoi Shuen Foundation,https://ror.org/04tdh3a97,nonprofit,hk,0
+hk,I4405278631,Kerry Group Kuok Foundation,https://ror.org/00a9ahk05,nonprofit,hk,0
+hk,I4405279169,Jessie and George Ho Charitable Foundation,https://ror.org/013dd4j51,funder,hk,0
+hk,I4405279261,Olympus Hong Kong and China (Hong Kong),https://ror.org/0173t3b69,company,hk,0
+hk,I4405279316,Wei Lun Foundation,https://ror.org/019w9hq41,funder,hk,0
+sg,I165932596,National University of Singapore,https://ror.org/01tgyzw49,education,sg,307842
+sg,I172675005,Nanyang Technological University,https://ror.org/02e7b5302,education,sg,206883
+sg,I115228651,"Agency for Science, Technology and Research",https://ror.org/036wvzt09,government,sg,49093
+sg,I4210126319,Duke-NUS Medical School,https://ror.org/02j1m6098,education,sg,29814
+sg,I2251586001,Singapore General Hospital,https://ror.org/036j6sg82,healthcare,sg,24617
+sg,I4210150261,National University Health System,https://ror.org/05tjjsh18,education,sg,21355
+sg,I79891267,Singapore Management University,https://ror.org/050qmg959,education,sg,20966
+sg,I4210146690,National University Hospital,https://ror.org/04fp9fm22,healthcare,sg,20200
+sg,I152815399,Singapore University of Technology and Design,https://ror.org/05j6fvn87,education,sg,15621
+sg,I3005327000,Institute for Infocomm Research,https://ror.org/053rfa017,facility,sg,13495
+sg,I2802408685,Tan Tock Seng Hospital,https://ror.org/032d59j24,healthcare,sg,13448
+sg,I4210123095,Institute of Materials Research and Engineering,https://ror.org/02sepg748,facility,sg,12072
+sg,I3004594783,Institute of High Performance Computing,https://ror.org/02n0ejh50,facility,sg,9438
+sg,I4210137145,National Cancer Centre Singapore,https://ror.org/03bqk3e80,healthcare,sg,9180
+sg,I4210112252,KK Women's and Children's Hospital,https://ror.org/0228w5t68,healthcare,sg,8726
+sg,I157582758,SingHealth,https://ror.org/04me94w47,healthcare,sg,8172
+sg,I4210116917,Singapore Eye Research Institute,https://ror.org/02crz6e12,facility,sg,8127
+sg,I75573869,Institute of Molecular and Cell Biology,https://ror.org/04xpsrn94,facility,sg,8011
+sg,I2799299286,Singapore National Eye Center,https://ror.org/029nvrb94,healthcare,sg,6709
+sg,I4210090209,Institute of Microelectronics,https://ror.org/009rw8n36,facility,sg,6127
+sg,I4210147238,National Heart Centre Singapore,https://ror.org/04f8k9513,healthcare,sg,5987
+sg,I2802225915,Changi General Hospital,https://ror.org/02q854y08,healthcare,sg,5847
+sg,I4210091207,Singapore Institute of Manufacturing Technology,https://ror.org/00f44np30,facility,sg,5816
+sg,I66068411,Genome Institute of Singapore,https://ror.org/05k8wg936,facility,sg,5814
+sg,I168639165,Singapore Institute of Technology,https://ror.org/01v2c2791,education,sg,5741
+sg,I4210152270,INSEAD,https://ror.org/05ynf4333,education,sg,5537
+sg,I4210097409,SingHealth Duke-NUS Academic Medical Centre,https://ror.org/00xcwps97,healthcare,sg,5499
+sg,I115455960,Centre for Quantum Technologies,https://ror.org/01mgdzc49,facility,sg,4346
+sg,I4210167254,Singapore-MIT Alliance for Research and Technology,https://ror.org/05yb3w112,education,sg,4134
+sg,I4210131313,National Neuroscience Institute,https://ror.org/03d58dr58,healthcare,sg,4126
+sg,I1329267311,National Parks Board,https://ror.org/046qg1023,government,sg,3886
+sg,I4405257834,National Healthcare Group,https://ror.org/05qkemg93,healthcare,sg,3870
+sg,I144291393,Data Storage Institute,https://ror.org/03k5xes38,facility,sg,3826
+sg,I8696757,Singapore University of Social Sciences,https://ror.org/01s57k749,education,sg,3724
+sg,I2802424189,Khoo Teck Puat Hospital,https://ror.org/05wc95s05,healthcare,sg,3657
+sg,I4210103786,"National University Cancer Institute, Singapore",https://ror.org/025yypj46,education,sg,3590
+sg,I4405277804,Cancer Science Institute of Singapore,https://ror.org/03yky5015,facility,sg,3412
+sg,I4210107866,National University Heart Centre Singapore,https://ror.org/01vvdem88,healthcare,sg,3357
+sg,I2800824516,Singapore Immunology Network,https://ror.org/03vmmgg57,facility,sg,3210
+sg,I4210101200,Singapore Institute for Clinical Sciences,https://ror.org/015p9va32,facility,sg,2901
+sg,I4210148498,Bioinformatics Institute,https://ror.org/044w3nw43,facility,sg,2873
+sg,I4210108017,Earth Observatory of Singapore,https://ror.org/01167a838,facility,sg,2690
+sg,I4405277765,Temasek Laboratories,https://ror.org/03tg9kr68,facility,sg,2647
+sg,I4210140151,Institute of Mental Health,https://ror.org/04c07bj87,healthcare,sg,2605
+sg,I4210105704,Institute of Chemical and Engineering Sciences,https://ror.org/01cbwn720,facility,sg,2553
+sg,I4405277924,ESSEC Business School,https://ror.org/04be2h179,education,sg,2522
+sg,I3089745140,Yale-NUS College,https://ror.org/04g9wch13,education,sg,2414
+sg,I162266279,Temasek Life Sciences Laboratory,https://ror.org/0574eex11,facility,sg,2401
+sg,I4210159875,Sengkang General Hospital,https://ror.org/05cqp3018,healthcare,sg,2363
+sg,I4405278259,Life Sciences Institute,https://ror.org/05gtb7e09,facility,sg,2250
+sg,I4405277086,Mechanobiology Institute,https://ror.org/01dh8a666,facility,sg,2214
+sg,I1291357265,Ministry of Health,https://ror.org/00mrhvv69,government,sg,2196
+sg,I2802449453,Ng Teng Fong General Hospital,https://ror.org/055vk7b41,healthcare,sg,2186
+sg,I28490864,DSO National Laboratories,https://ror.org/03e05fb06,nonprofit,sg,2183
+sg,I4405268600,Tropical Marine Science Institute,https://ror.org/01ghsb769,facility,sg,2109
+sg,I1287551835,National Skin Centre,https://ror.org/000p7hm12,healthcare,sg,2050
+sg,I4210142708,Singapore Centre for Environmental Life Sciences Engineering,https://ror.org/041qqrw82,facility,sg,2036
+sg,I58236372,Ngee Ann Polytechnic,https://ror.org/01w953x65,education,sg,1883
+sg,I4210110442,James Cook University Singapore,https://ror.org/01y5z8p89,education,sg,1746
+sg,I4210113188,Institute of Bioengineering and Nanotechnology,https://ror.org/022xyn875,facility,sg,1744
+sg,I2799804706,Alexandra Hospital,https://ror.org/02f3b8e29,healthcare,sg,1720
+sg,I4405254519,Singapore-ETH Centre,https://ror.org/01x6n3581,facility,sg,1643
+sg,I4210150597,National Centre for Infectious Diseases,https://ror.org/03rtrce80,healthcare,sg,1563
+sg,I4405277743,Centre for Disruptive Photonic Technologies,https://ror.org/03r8b9b56,facility,sg,1479
+sg,I202502355,Singapore Polytechnic,https://ror.org/05pxcn248,education,sg,1432
+sg,I4210147916,Institute of Medical Biology,https://ror.org/04frzv033,facility,sg,1412
+sg,I4210137615,Bioprocessing Technology Institute,https://ror.org/049fnxe71,facility,sg,1378
+sg,I4405278299,NUS Environmental Research Institute,https://ror.org/05myqjr33,facility,sg,1326
+sg,I4210145138,Singapore Bioimaging Consortium,https://ror.org/046rtjc87,facility,sg,1109
+sg,I4405269742,Solar Energy Research Institute of Singapore,https://ror.org/052xcfq48,facility,sg,1107
+sg,I2800542734,Mount Elizabeth Hospital,https://ror.org/019z9dk17,healthcare,sg,1104
+sg,I4210136567,GlobalFoundries (Singapore),https://ror.org/03whnfd14,company,sg,1093
+sg,I4405278268,CNRS-International-NTU-Thales Research Alliance,https://ror.org/05hqw3605,facility,sg,1088
+sg,I2799413724,Singapore Science Park,https://ror.org/0023asr12,archive,sg,1055
+sg,I4210094553,Newcastle University Singapore,https://ror.org/00mbfhq81,education,sg,1007
+sg,I4405269916,Asia Research Institute,https://ror.org/05mga3761,facility,sg,983
+sg,I4405278099,Institute for Health Innovation & Technology,https://ror.org/04zap5v53,facility,sg,970
+sg,I4210108443,Advanced Digital Sciences Center,https://ror.org/01xaqx887,facility,sg,964
+sg,I4210144008,National Dental Centre of Singapore,https://ror.org/03w6pea42,healthcare,sg,950
+sg,I4405255264,TUM CREATE,https://ror.org/02synbq51,education,sg,945
+sg,I4210113223,SingHealth Polyclinics,https://ror.org/01ytv0571,healthcare,sg,903
+sg,I4405278131,The Photonics Institute,https://ror.org/052szd895,facility,sg,896
+sg,I4405277516,East Asian Institute,https://ror.org/02ze14829,facility,sg,845
+sg,I3132320630,ISEAS - Yusof Ishak Institute,https://ror.org/02sck9v68,facility,sg,837
+sg,I21419654,Nanyang Polytechnic,https://ror.org/04af7ga89,education,sg,817
+sg,I195296446,Temasek Polytechnic,https://ror.org/03k1z9s75,education,sg,807
+sg,I4210162116,Singapore Clinical Research Institute,https://ror.org/05c27bs83,other,sg,766
+sg,I2799333108,Health Sciences Authority,https://ror.org/02ybkn114,government,sg,756
+sg,I4210143268,Woodlands Health Campus,https://ror.org/03b489496,healthcare,sg,755
+sg,I4405277998,Temasek Laboratories@NTU,https://ror.org/04k7mjn74,facility,sg,753
+sg,I4210114908,UMI MajuLab,https://ror.org/027jrtw17,facility,sg,746
+sg,I4405277095,Singapore Synchrotron Light Source,https://ror.org/01en6x334,facility,sg,740
+sg,I146586912,National Environment Agency,https://ror.org/00z4nbg03,government,sg,723
+sg,I2801414801,Gleneagles Hospital,https://ror.org/0176wfg98,healthcare,sg,723
+sg,I4210118135,Observational & Pragmatic Research Institute,https://ror.org/02gq3ch54,other,sg,713
+sg,I1325159990,Ministry of Defence,https://ror.org/05m38qe70,government,sg,703
+sg,I4405277799,Institute for Functional Intelligent Materials,https://ror.org/03ya4vs02,facility,sg,698
+sg,I4405254580,Skin Research Institute of Singapore,https://ror.org/01ztxwq91,funder,sg,689
+sg,I4405277821,Singapore Institute of Food and Biotechnology Innovation,https://ror.org/040p65634,facility,sg,685
+sg,I4210106954,The Cambridge Centre for Advanced Research and Education in Singapore,https://ror.org/02f3vh107,facility,sg,662
+sg,I4405278266,Energy Studies Institute,https://ror.org/05hhrnv90,facility,sg,615
+sg,I188716491,Republic Polytechnic,https://ror.org/04qf03327,education,sg,608
+sg,I4210094239,Image and Pervasive Access Laboratory,https://ror.org/00m3mb357,facility,sg,589
+sg,I4405278236,Institute of Data Science,https://ror.org/05e141s81,facility,sg,569
+sg,I4405278226,NHG Polyclinics,https://ror.org/05cfe7d71,healthcare,sg,561
+sg,I4405277224,The Logistics Institute-Asia Pacific,https://ror.org/01xrd5m75,facility,sg,553
+sg,I1280293394,Ministry of Education,https://ror.org/01kcva023,government,sg,522
+sg,I2802633948,Mount Elizabeth Novena Hospital,https://ror.org/01cnqh417,healthcare,sg,521
+sg,I4405277206,Centre for Integrated Circuits and Systems,https://ror.org/01vh24a89,facility,sg,510
+sg,I4405256791,Advanced Remanufacturing & Technology Centre,https://ror.org/04hmssf27,funder,sg,503
+sg,I4405276858,LUMINOUS! Centre of Excellence for Semiconductor Lighting and Displays,https://ror.org/00hg65c41,facility,sg,485
+sg,I4210153592,Geriatric Education and Research Institute,https://ror.org/04bqwt245,facility,sg,475
+sg,I4210146998,MOH Holdings,https://ror.org/052jm1735,healthcare,sg,474
+sg,I4405253338,Infectious Diseases Labs,https://ror.org/00jj11r28,facility,sg,455
+sg,I4405277661,Institute of Operations Research and Analytics,https://ror.org/03gr3d554,facility,sg,452
+sg,I4210167101,Clinical Nutrition Research Centre,https://ror.org/05mh8rb60,facility,sg,448
+sg,I2802250162,Health Promotion Board,https://ror.org/01xkzjp97,government,sg,443
+sg,I4405278149,"Centre for Remote Imaging, Sensing and Processing",https://ror.org/05424d111,facility,sg,437
+sg,I4210086881,Singapore-HUJ Alliance for Research and Enterprise,https://ror.org/002pnw495,nonprofit,sg,424
+sg,I4405254895,A*STAR Research Entities,https://ror.org/02c6k8737,government,sg,422
+sg,I4210130343,National Metrology Centre,https://ror.org/035gbps25,facility,sg,407
+sg,I4405253178,Novartis Institute For Tropical Diseases,https://ror.org/00cn3vx82,facility,sg,403
+sg,I4405277760,Risk Management Institute,https://ror.org/03sgmjc85,facility,sg,388
+sg,I4405274707,SEAMEO Regional Language Centre,https://ror.org/0276z6433,education,sg,385
+sg,I4405255891,CNRS@CREATE Ltd (Singapore),https://ror.org/03hjh0h14,company,sg,365
+sg,I4210129495,National Research Foundation,https://ror.org/03cpyc314,government,sg,356
+sg,I4405254058,Illumina (Singapore),https://ror.org/01c64df17,company,sg,344
+sg,I4405253843,ST Engineering (Singapore),https://ror.org/014ycg306,company,sg,333
+sg,I4405277658,Joint NTU-UBC Research Centre of Excellence in Active Living for the Elderly,https://ror.org/03gjns624,facility,sg,332
+sg,I2802950585,Defence Science and Technology Agency,https://ror.org/02rvm6b03,government,sg,329
+sg,I4210103465,Deutsche Telekom (Singapore),https://ror.org/019xzz882,company,sg,329
+sg,I4210133433,STMicroelectronics (Singapore),https://ror.org/030c4gr60,company,sg,322
+sg,I4210097286,Hwa Chong Institution,https://ror.org/00rrrfr24,education,sg,316
+sg,I4405261463,International Commission on Zoological Nomenclature,https://ror.org/05ba5vb42,other,sg,310
+sg,I4210157043,LASALLE College of the Arts,https://ror.org/04s8jdf66,education,sg,306
+sg,I4210116904,"Technology Centre for Offshore and Marine, Singapore",https://ror.org/02gqf9e56,facility,sg,301
+sg,I4405278183,Newcastle Australia Institute of Higher Education,https://ror.org/057tdam26,education,sg,293
+sg,I4210158759,University of Glasgow Singapore,https://ror.org/05jzgzx91,education,sg,288
+sg,I864816262,Land Transport Authority,https://ror.org/01t8drk63,government,sg,280
+sg,I4210144507,Infineon Technologies (Singapore),https://ror.org/0470e9841,company,sg,278
+sg,I4405276784,Institute for Digital Molecular Analytics and Science,https://ror.org/009xtw325,facility,sg,276
+sg,I4405273216,Air Traffic Management Research Institute,https://ror.org/05fw23758,facility,sg,273
+sg,I4405277040,Institute of South Asian Studies,https://ror.org/018129669,facility,sg,270
+sg,I4405269459,Singapore Telecommunications Limited (Singapore),https://ror.org/0481r3q55,company,sg,262
+sg,I4405277302,Digital Manufacturing and Design Centre,https://ror.org/0277wn697,facility,sg,261
+sg,I4405276954,Robotics Research Centre,https://ror.org/00z5kvj03,facility,sg,257
+sg,I1341483097,Public Utilities Board,https://ror.org/04ecck436,government,sg,256
+sg,I4405256821,Advanced Micro Devices (Singapore),https://ror.org/04jt1bz85,company,sg,253
+sg,I2799854419,Raffles Institution,https://ror.org/04yaxh485,education,sg,252
+sg,I4405271411,National University Polyclinics,https://ror.org/02d77wd79,healthcare,sg,249
+sg,I4210128633,Experimental Drug Development Centre,https://ror.org/03kx02w94,facility,sg,248
+sg,I4405277152,Rehabilitation Research Institute of Singapore,https://ror.org/01nm6pm87,facility,sg,244
+sg,I4210102399,Johnson & Johnson (Singapore),https://ror.org/01cjdx044,company,sg,242
+sg,I4210162667,University of Wales Institute Cardiff,https://ror.org/03evaaw16,education,sg,242
+sg,I4210114472,Meteorological Service Singapore,https://ror.org/025sv2d63,government,sg,240
+sg,I4405278302,Management Development Institute of Singapore,https://ror.org/05n4ts435,education,sg,240
+sg,I4405277298,Centre for Research and Development in Learning,https://ror.org/026fee789,facility,sg,232
+sg,I4405278348,Centre for Hydrogen and Carbon Innovations,https://ror.org/05s3wgw86,other,sg,226
+sg,I4405276909,Centre for International Law,https://ror.org/00s2qr322,facility,sg,218
+sg,I4210096677,Ministry of Foreign Affairs,https://ror.org/00aakw318,government,sg,211
+sg,I4210130241,A*STAR-NUS Clinical Imaging Research Centre,https://ror.org/02rfzns68,facility,sg,211
+sg,I4405277403,Centre for OptoElectronics and Biophotonics,https://ror.org/02jtrqb08,facility,sg,211
+sg,I4210109012,Waseda Bioscience Research Institute in Singapore,https://ror.org/01m343c98,education,sg,209
+sg,I4405277069,iTrust,https://ror.org/01bh69152,facility,sg,206
+sg,I2800533921,United World College of South East Asia,https://ror.org/025kf5q07,education,sg,204
+sg,I4405256331,Sport Singapore,https://ror.org/0419aq933,government,sg,197
+sg,I4210156182,Ministry of Home Affairs,https://ror.org/0551rpg58,government,sg,196
+sg,I4210098220,Keysight Technologies (Singapore),https://ror.org/01155gk87,company,sg,192
+sg,I4210155519,St Luke's Hospital,https://ror.org/053x7k331,healthcare,sg,186
+sg,I4210156654,National Medical Research Council,https://ror.org/04x3cxs03,government,sg,184
+sg,I4405276701,Centre for Optical and Laser Engineering,https://ror.org/0002sz552,facility,sg,182
+sg,I4405278249,Institute of Catastrophe Risk Management,https://ror.org/05fp1xs62,facility,sg,182
+sg,I4210106407,MSD (Singapore),https://ror.org/01mhwgh68,company,sg,181
+sg,I4405252863,The Palliative Care Centre for Excellence in Research and Education,https://ror.org/0026cwk62,healthcare,sg,180
+sg,I78613837,Institute of Technical Education,https://ror.org/03xw9zx77,education,sg,178
+sg,I4210165108,Ministry of the Environment and Water Resources,https://ror.org/05xq19q44,government,sg,174
+sg,I4210163532,Micron (Singapore),https://ror.org/05f6fhp31,company,sg,172
+sg,I4210144938,Wilmar International (Singapore),https://ror.org/04v0xgx08,company,sg,171
+sg,I4405277766,Lee Kuan Yew Centre for Innovative Cities,https://ror.org/03tgchp71,facility,sg,169
+sg,I44119531,Ministry of Manpower,https://ror.org/036gvnq39,government,sg,169
+sg,I4405278101,Curtin Singapore,https://ror.org/04zayq214,education,sg,168
+sg,I4405278147,Singapore Nuclear Research and Safety Initiative,https://ror.org/053w0np86,facility,sg,155
+sg,I88943931,Agri-Food and Veterinary Authority of Singapore,https://ror.org/04afrdx88,government,sg,154
+sg,I4405269452,Singapore Food Agency,https://ror.org/0478mpy30,government,sg,153
+sg,I4210131259,Nestlé (Singapore),https://ror.org/03w84vf57,company,sg,147
+sg,I4210092355,Academy of Medicine,https://ror.org/00fnk0q46,education,sg,145
+sg,I4210102319,Abbott (Singapore),https://ror.org/00rhats79,company,sg,145
+sg,I4405276717,SingHealth Community Hospitals,https://ror.org/001ngxf61,healthcare,sg,145
+sg,I4210124465,Novartis (Singapore),https://ror.org/02v66pf20,company,sg,144
+sg,I1282691321,National Library Board,https://ror.org/051zva233,government,sg,142
+sg,I4210136703,STATS ChipPAC (Singapore),https://ror.org/046ct7v62,company,sg,141
+sg,I4210155759,Merck (Singapore),https://ror.org/05cq2am04,company,sg,139
+sg,I4210109648,Eye & Retina Surgeons,https://ror.org/01mhm7x58,healthcare,sg,136
+sg,I4405276754,Sim Kee Boon Institute for Financial Economics,https://ror.org/005xtdp25,facility,sg,135
+sg,I4405268443,Institute for Adult Learning,https://ror.org/00zkh3g95,education,sg,134
+sg,I4210098302,Fraunhofer Singapore,https://ror.org/00yqed873,facility,sg,133
+sg,I4405276792,Global Asia Institute,https://ror.org/00aktdz47,facility,sg,133
+sg,I4405277557,PSB Academy,https://ror.org/033q5c506,education,sg,132
+sg,I4405277868,Centre for Maritime Studies,https://ror.org/044n3ag78,facility,sg,130
+sg,I4405278159,Nanyang Centre for Public Administration,https://ror.org/055nr9x19,education,sg,129
+sg,I4210098530,Takeda (Singapore),https://ror.org/00dzggj72,company,sg,128
+sg,I2802611058,Housing and Development Board,https://ror.org/0537h0h72,government,sg,126
+sg,I4405276805,Singapore American School,https://ror.org/00bt54304,education,sg,123
+sg,I4405278211,Institute of Real Estate and Urban Studies,https://ror.org/05bd77k30,facility,sg,121
+sg,I91275662,Science and Engineering Research Council,https://ror.org/00zgdb249,facility,sg,120
+sg,I4210154943,Ministry of National Development,https://ror.org/04gvcex51,government,sg,119
+sg,I4405277871,Temasek Laboratories @ SUTD,https://ror.org/044v79b59,facility,sg,119
+sg,I1293882192,National Kidney Foundation Singapore,https://ror.org/01jz2hz84,nonprofit,sg,118
+sg,I4210163335,World Scientific (Singapore),https://ror.org/05e7tm136,company,sg,115
+sg,I2801240577,Building and Construction Authority,https://ror.org/036ve4657,government,sg,108
+sg,I4210154793,Agency for Integrated Care,https://ror.org/054gy5e97,other,sg,107
+sg,I4405253446,AI Singapore,https://ror.org/00ntacr26,government,sg,106
+sg,I4405277240,Lloyd's Register Foundation Institute for the Public Understanding of Risk,https://ror.org/020csmx36,facility,sg,104
+sg,I4405277894,Kaplan Higher Education Academy,https://ror.org/0478bnp56,education,sg,104
+sg,I2801096481,"Standards, Productivity and Innovation Board",https://ror.org/02capbb49,government,sg,102
+sg,I4405277070,Satellite Research Centre,https://ror.org/01c9zmr53,facility,sg,101
+sg,I4405277549,Centre for Micro- & Nano-Electronics,https://ror.org/032q65064,facility,sg,99
+sg,I4405276797,Smart Systems Institute,https://ror.org/00b3ve358,facility,sg,97
+sg,I244013920,Ministry of Social and Family Development,https://ror.org/0434keq61,government,sg,96
+sg,I4210125203,Broadcom (Singapore),https://ror.org/03zvyfv67,company,sg,95
+sg,I4210102879,Applied Materials (Singapore),https://ror.org/01c4r0z03,company,sg,94
+sg,I4210151072,Institute of Occupational Medicine,https://ror.org/04v87ev31,nonprofit,sg,92
+sg,I59093436,Trinity Theological College,https://ror.org/04wz0k923,education,sg,90
+sg,I2801928610,Maritime and Port Authority of Singapore,https://ror.org/03nt1ca89,government,sg,89
+sg,I4210102580,Albany Molecular Research (Singapore),https://ror.org/012p2hd37,company,sg,89
+sg,I882086362,Wipro (Singapore),https://ror.org/01hbz8t53,company,sg,89
+sg,I109131318,Civil Service College,https://ror.org/02hxmqn30,education,sg,88
+sg,I4405278347,Singapore International Dispute Resolution Academy,https://ror.org/05rzsqe17,education,sg,88
+sg,I4405278290,Dulwich College (Singapore),https://ror.org/05m1kek96,education,sg,87
+sg,I4405277737,Protective Technology Research Centre,https://ror.org/03qexas60,facility,sg,86
+sg,I4405277131,Centre for Optical Fibre Technology,https://ror.org/01jxdct47,facility,sg,85
+sg,I4405277177,NUS Centre for Trusted Internet and Community,https://ror.org/01rc5n792,facility,sg,85
+sg,I4210143316,National Heritage Board,https://ror.org/046rj3t65,government,sg,84
+sg,I4405256802,Monetary Authority of Singapore,https://ror.org/04j3k7769,government,sg,84
+sg,I4210100812,Excelitas Technologies (Singapore),https://ror.org/0150aaa23,company,sg,83
+sg,I4210109929,Nanyang Academy of Fine Arts,https://ror.org/01pjme364,education,sg,83
+sg,I4210161496,A*STAR Graduate Academy,https://ror.org/059yjzn93,education,sg,83
+sg,I4210101515,Eli Lilly (Singapore),https://ror.org/010ajwv03,company,sg,82
+sg,I4210134788,Prime Minister's Office,https://ror.org/0425b4h79,government,sg,80
+sg,I4210141965,Siemens (Singapore),https://ror.org/051vpna32,company,sg,80
+sg,I4405278082,DigiPen Institute of Technology Singapore,https://ror.org/04wv2kb59,education,sg,79
+sg,I4405278180,Centre for Digital Law,https://ror.org/0579vjv28,facility,sg,79
+sg,I4210114036,AstraZeneca (Singapore),https://ror.org/023p4rz42,company,sg,78
+sg,I4405277092,Institute of Advanced Intelligence and Computing,https://ror.org/01eczt548,facility,sg,78
+sg,I4405277440,Amity Global Institute,https://ror.org/02pskhb07,education,sg,78
+sg,I4405280288,Sembcorp Industries (Singapore),https://ror.org/02qamgk59,company,sg,78
+sg,I4405277068,Government Technology Agency,https://ror.org/01bgzxg94,government,sg,76
+sg,I4405277167,Synapxe,https://ror.org/01q1qh982,company,sg,76
+sg,I4210144559,Kulicke & Soffa (Singapore),https://ror.org/04ktbjv18,company,sg,75
+sg,I177844149,Advantest (Singapore),https://ror.org/04dyk5z88,company,sg,74
+sg,I2801874600,JTC Corporation,https://ror.org/05ft5aq05,government,sg,72
+sg,I4405277020,Strategic Centre for Research in Privacy-Preserving Technologies & Systems,https://ror.org/015j4q458,facility,sg,71
+sg,I4405277875,Home Team Science and Technology Agency,https://ror.org/0454x6r43,government,sg,71
+sg,I4405278093,Communicable Diseases Agency,https://ror.org/04yf56x83,government,sg,71
+sg,I4405277211,Emerging nanoscience Research Institute,https://ror.org/01w5snc73,facility,sg,70
+sg,I2802184021,Ang Mo Kio Thye Hua Kwan Hospital,https://ror.org/05wqa9613,healthcare,sg,69
+sg,I4210154055,Histoindex (Singapore),https://ror.org/04hwc4q95,company,sg,67
+sg,I4405278077,Centre for Power Engineering,https://ror.org/04w9pn053,facility,sg,67
+sg,I4210128805,MediaTek (Singapore),https://ror.org/031y85330,company,sg,64
+sg,I2800214375,TCA College,https://ror.org/02mvc1a11,education,sg,63
+sg,I4405256196,Google (Singapore),https://ror.org/03weg0b71,company,sg,60
+sg,I4405256995,"Precision Health Research, Singapore",https://ror.org/04rqt6703,funder,sg,58
+sg,I4405278378,Jurong Community Hospital,https://ror.org/05xfz5j98,healthcare,sg,58
+sg,I4405276885,Centre for Climate Change and Environmental Health,https://ror.org/00nm9fd94,facility,sg,57
+sg,I4210152597,Standard Chartered (Singapore),https://ror.org/04fves037,company,sg,56
+sg,I4405277247,National Council of Social Service,https://ror.org/021ft9t16,government,sg,54
+sg,I2801752549,Biomedical Research Council,https://ror.org/03xy0wx88,government,sg,49
+sg,I4210162663,Chemical Synthesis Lab,https://ror.org/04kbbt849,facility,sg,49
+sg,I4405277851,Future Ready Food Safety Hub,https://ror.org/043p46f84,facility,sg,48
+sg,I4405278195,Centre of AI in Medicine,https://ror.org/058w28210,facility,sg,46
+sg,I4405268455,The HEAD Foundation,https://ror.org/011bbwt12,nonprofit,sg,45
+sg,I4405255490,Microsoft (Singapore),https://ror.org/032q61545,company,sg,44
+sg,I4405269060,Mundipharma Pte Ltd (Singapore),https://ror.org/02z7gqm17,company,sg,44
+sg,I4405277889,Ageing Research Institute for Society and Education,https://ror.org/046we1229,education,sg,44
+sg,I4405277734,TMC Academy,https://ror.org/03q9j8966,education,sg,43
+sg,I4405278013,Information Management Research Centre,https://ror.org/04nch1y71,facility,sg,43
+sg,I4405278375,Centre for Antimicrobial Bioengineering,https://ror.org/05wczt320,facility,sg,43
+sg,I4210138962,Tessa Therapeutic (Singapore),https://ror.org/03tk0wy30,company,sg,42
+sg,I4405277087,TUM Asia,https://ror.org/01dm94q09,education,sg,42
+sg,I1323260719,Singapore Police Force,https://ror.org/03bytya42,government,sg,41
+sg,I4405277722,Canadian International School,https://ror.org/03p5ghf86,education,sg,41
+sg,I4405255939,Evonik (Singapore),https://ror.org/03kmffx98,company,sg,40
+sg,I4405253745,Urban Redevelopment Authority,https://ror.org/011pe6079,government,sg,39
+sg,I4405277118,Stamford American International School,https://ror.org/01h9eqq07,education,sg,39
+sg,I2800267780,Parkway East Hospital,https://ror.org/00r2t8g81,healthcare,sg,38
+sg,I4210095327,Singapore Maritime Institute,https://ror.org/00p86m346,facility,sg,38
+sg,I2802349654,Singapore Cancer Society,https://ror.org/00k1zme04,nonprofit,sg,37
+sg,I4405277242,Centre for Liveable Cities,https://ror.org/020ejde55,government,sg,35
+sg,I4210115289,TÜV SÜD (Singapore),https://ror.org/021tea790,company,sg,34
+sg,I4405254564,Airbus Group Singapore Pte Ltd (Singapore),https://ror.org/01z2efh66,company,sg,34
+sg,I4405277956,Economic Growth Centre,https://ror.org/04f08z333,facility,sg,34
+sg,I4405255617,Texas Instruments (Singapore),https://ror.org/037qn8k12,company,sg,33
+sg,I4405277195,Diagnostics Development Hub,https://ror.org/01taw9p45,facility,sg,33
+sg,I4210095410,Singapore College of Traditional Chinese Medicine,https://ror.org/00syaya36,education,sg,32
+sg,I4405268414,Asia-Europe Foundation,https://ror.org/00vfh2386,nonprofit,sg,32
+sg,I2802484659,Economic Development Board,https://ror.org/02nqj0b62,government,sg,31
+sg,I4210090371,Singapore Heart Foundation,https://ror.org/00b23k705,nonprofit,sg,31
+sg,I4405276849,Centre for Healthy and Sustainable Cities,https://ror.org/00gcaxr56,facility,sg,31
+sg,I4405277292,Science Centre Singapore,https://ror.org/025vx5b50,government,sg,31
+sg,I4405276856,Transport Research Centre@NTU,https://ror.org/00gzfhk81,facility,sg,30
+sg,I2799859190,Infocomm Development Authority of Singapore,https://ror.org/04pyne868,government,sg,29
+sg,I4405277291,Singapore Land Authority,https://ror.org/025vv2m53,government,sg,28
+sg,I4405277538,Electromagnetic Effects Research Laboratory,https://ror.org/0314t3179,facility,sg,28
+sg,I4405277724,Inland Revenue Authority of Singapore,https://ror.org/03pb5d002,government,sg,28
+sg,I4405277782,Centre for Cross Economy,https://ror.org/03whzv967,facility,sg,27
+sg,I4405256798,Nusmetics Pte Ltd (Singapore),https://ror.org/04hwn5841,company,sg,26
+sg,I4405267070,KBP Biosciences (Singapore),https://ror.org/013awcs65,company,sg,26
+sg,I4405276859,Global Indian International School,https://ror.org/00hghbz51,education,sg,25
+sg,I4405277490,Tanglin Trust School,https://ror.org/02wr69b03,education,sg,25
+sg,I4405268452,VIVA Foundation for Children with Cancer,https://ror.org/010qnk582,nonprofit,sg,24
+sg,I4405269952,National Supercomputing Centre Singapore,https://ror.org/05qbsk739,facility,sg,24
+sg,I4405276863,"Centre on Security, Mobile Applications and Cryptography",https://ror.org/00htyyx62,facility,sg,24
+sg,I4405277910,Singapore Academy of Law,https://ror.org/049v0nk24,government,sg,24
+sg,I4405255782,Autodesk (Singapore),https://ror.org/03dx15n64,company,sg,23
+sg,I4405256344,MiRXES Lab Pte. Ltd. (Singapore),https://ror.org/041mrvc03,company,sg,23
+sg,I4405276819,Cyber Security Research Centre @ NTU,https://ror.org/00d4rkk34,facility,sg,23
+sg,I4405277179,College of Family Physicians Singapore,https://ror.org/01rft3056,education,sg,23
+sg,I4405277613,Centre for System Intelligence and Efficiency,https://ror.org/03bq8cp04,facility,sg,23
+sg,I4405277723,Raffles College of Higher Education,https://ror.org/03p6bcz24,education,sg,23
+sg,I4210139109,Entropica Labs (Singapore),https://ror.org/03a7t7c50,company,sg,22
+sg,I4405260487,Telesto Energy (Singapore),https://ror.org/03tnqgz83,company,sg,22
+sg,I4405278291,Institute for Mathematical Sciences,https://ror.org/05m2qpe10,facility,sg,22
+sg,I4405256244,Amili Pte Ltd (Singapore),https://ror.org/03ypsay29,company,sg,21
+sg,I4405278055,Furen International School,https://ror.org/04sk9a220,education,sg,21
+sg,I4405278371,Bridging Mechanobiology and Medicine,https://ror.org/05w0js807,facility,sg,21
+sg,I4405254855,Alexandra Health Pte Ltd,https://ror.org/02akb7n88,funder,sg,20
+sg,I4405278063,Singapore Examinations and Assessment Board,https://ror.org/04v9fsa15,government,sg,20
+sg,I130653702,Creative Technology (Singapore),https://ror.org/040pjdm93,company,sg,19
+sg,I4210089308,AMS (Singapore),https://ror.org/008hf2578,company,sg,19
+sg,I4405277127,Australian International School Singapore,https://ror.org/01jbw2p42,education,sg,19
+sg,I4210121870,Temasek Defence Systems Institute,https://ror.org/02gmy7y33,education,sg,18
+sg,I4210143179,Hillrom (Singapore),https://ror.org/03mdyrb51,company,sg,17
+sg,I4405276796,DPS International School,https://ror.org/00b1t3q41,education,sg,17
+sg,I4405277097,Intellectual Property Office of Singapore,https://ror.org/01esj0905,government,sg,17
+sg,I4405277260,The Logistics Academy,https://ror.org/022mqyh26,education,sg,17
+sg,I4405277843,SJTU Asia-Pacific Graduate Institute,https://ror.org/042t7cw90,education,sg,17
+sg,I4405278280,North London Collegiate School (Singapore),https://ror.org/05jprzq73,education,sg,17
+sg,I4210112012,Cordlife (Singapore),https://ror.org/022zce303,company,sg,16
+sg,I4210140739,Sphaera Pharma (Singapore),https://ror.org/04xegkb78,company,sg,16
+sg,I4210151456,East Asia Research,https://ror.org/05118ff02,other,sg,16
+sg,I4210153397,Singapore Stem Cell Consortium,https://ror.org/044hmkx85,other,sg,16
+sg,I4405256056,KPMG (Singapore),https://ror.org/03q9f6286,company,sg,16
+sg,I4210101736,TauRx Pharmaceuticals (Singapore),https://ror.org/015frs841,company,sg,15
+sg,I4210142048,DenseLight Semiconductors (Singapore),https://ror.org/052mh6j19,company,sg,15
+sg,I2896998738,Asian Civilisations Museum,https://ror.org/03m1r7z07,archive,sg,14
+sg,I4210125679,Lite-On Technology Corporation (Singapore),https://ror.org/03n4y8m86,company,sg,14
+sg,I4405254276,Articares Pte Ltd (Singapore),https://ror.org/01m9c6b05,company,sg,14
+sg,I4405257976,EDF LAB Singapore Pte Ltd (Singapore),https://ror.org/05wkmpm88,company,sg,14
+sg,I4405277904,Centre for Research on Successful Ageing,https://ror.org/048p5sj36,facility,sg,14
+sg,I2821654624,East Asia School of Theology,https://ror.org/01spg6m39,education,sg,13
+sg,I4210106279,Ministry of Communications and Information,https://ror.org/01j5aph50,government,sg,13
+sg,I4405277002,Academies Australasia College,https://ror.org/013sy4618,education,sg,13
+sg,I4405277090,Aviation Studies Institute,https://ror.org/01dwt6j32,facility,sg,13
+sg,I2800814390,Energy Market Authority,https://ror.org/05tqbd879,government,sg,12
+sg,I4405277330,Lithan Academy,https://ror.org/02afjzv05,education,sg,12
+sg,I4405277333,Asian Business Case Centre,https://ror.org/02as76r80,other,sg,12
+sg,I4405277518,Singapore Raffles Music College,https://ror.org/02zwbwq17,education,sg,12
+sg,I4405277569,Heritage Academy,https://ror.org/0359tje59,education,sg,12
+sg,I4405277575,National Museum of Singapore,https://ror.org/0369tta61,archive,sg,12
+sg,I4405278047,Workplace Safety and Health Institute,https://ror.org/04rvhyc37,government,sg,12
+sg,I4210128816,Kyowa Hakko Kirin (Singapore),https://ror.org/033573j20,company,sg,11
+sg,I4405257145,Civil Aviation Authority of Singapore,https://ror.org/04y9a5y12,funder,sg,11
+sg,I4405277707,National Integrated Centre for Evaluation,https://ror.org/03meka257,facility,sg,11
+sg,I4405277755,Insurance Risk and Finance Research Centre,https://ror.org/03s56t736,facility,sg,11
+sg,I4405278008,Nanyang Institute of Management,https://ror.org/04mrgtn78,education,sg,11
+sg,I4405278349,Singapore Tourism Board,https://ror.org/05s8pes74,government,sg,11
+sg,I2800010051,Asia Pacific League of Associations for Rheumatology,https://ror.org/05mny9804,nonprofit,sg,10
+sg,I4210087720,TechnoSpex (Singapore),https://ror.org/00276db30,company,sg,10
+sg,I4210124814,TDK (Singapore),https://ror.org/035t0dt07,company,sg,10
+sg,I4210091804,Biotronik (Singapore),https://ror.org/00g9bca48,company,sg,9
+sg,I4405254983,GlaxoSmithKline Consumer Healthcare Pte Ltd (Singapore),https://ror.org/02fpcfw82,company,sg,9
+sg,I4405268726,VeChain Foundation,https://ror.org/01w4wqs78,nonprofit,sg,9
+sg,I4210151866,Biosensors International Group (Singapore),https://ror.org/04bynv497,company,sg,8
+sg,I4405276708,Nexus International School (Singapore),https://ror.org/000kvr072,education,sg,8
+sg,I4405277258,ISS International School,https://ror.org/022e36350,education,sg,8
+sg,I4405277346,Institute of Innovation & Entrepreneurship,https://ror.org/02c7tc534,education,sg,8
+sg,I4405277398,Competition and Consumer Commission of Singapore,https://ror.org/02jdqrs09,government,sg,8
+sg,I4405277595,DIMENSIONS International College,https://ror.org/038stsz49,education,sg,8
+sg,I4405275589,ImmunoQs (Singapore),https://ror.org/03wzv7217,company,sg,7
+sg,I4405276857,One World International School,https://ror.org/00h70dw02,education,sg,7
+sg,I4405277193,NTU-PKU Joint Research Institute,https://ror.org/01t6gyb81,facility,sg,7
+sg,I4405277861,German European School Singapore,https://ror.org/04461c709,education,sg,7
+sg,I4405278031,SMU Urban Institute,https://ror.org/04q4feg79,facility,sg,7
+sg,I4210110843,Medtronic (Singapore),https://ror.org/01y0zfy93,company,sg,6
+sg,I4210127948,Perkinelmer (Singapore),https://ror.org/036dq0x98,company,sg,6
+sg,I4405260905,Springer Nature (Singapore),https://ror.org/04f7ht509,company,sg,6
+sg,I4405266398,Asia-Pacific Federation for Clinical Biochemistry and Laboratory Medicine (APFCB),https://ror.org/02nxn3z37,other,sg,6
+sg,I4405266934,Cerecin (Singapore),https://ror.org/00d5ty802,company,sg,6
+sg,I4405268780,National Additive Manufacturing Innovation Cluster,https://ror.org/021th1780,government,sg,6
+sg,I4405276913,XCL World Academy,https://ror.org/00swgse06,education,sg,6
+sg,I4405277075,Ngee Ann Academy,https://ror.org/01cqakm51,education,sg,6
+sg,I4405277577,EtonHouse International School,https://ror.org/036y5ek96,education,sg,6
+sg,I4405277602,Centre for Advanced Technologies in Online Safety,https://ror.org/039v0ek11,facility,sg,6
+sg,I4405278271,Singapore Department of Statistics,https://ror.org/05hzrz064,government,sg,6
+sg,I2799837013,Singapore International Foundation,https://ror.org/02jehgd93,nonprofit,sg,5
+sg,I2800021824,Aventis School of Management,https://ror.org/02kjxc710,education,sg,5
+sg,I2802665821,Media Development Authority,https://ror.org/00hhhdj49,government,sg,5
+sg,I4210120101,National Arts Council,https://ror.org/02tsh5b53,government,sg,5
+sg,I4210136319,Raytheon Technologies (Singapore),https://ror.org/03af71h47,company,sg,5
+sg,I4405254808,Celligenics Pte. Ltd. (Singapore),https://ror.org/028n19d35,company,sg,5
+sg,I4405276756,American Center for Education,https://ror.org/0064gvr91,education,sg,5
+sg,I4405276816,Trinity International College,https://ror.org/00cxppz44,education,sg,5
+sg,I4405276883,Centre for Commercial Law in Asia,https://ror.org/00myfzf78,facility,sg,5
+sg,I4405276904,Enterprise Singapore,https://ror.org/00qwz9h12,government,sg,5
+sg,I4405276971,SHRM College,https://ror.org/011awfq13,education,sg,5
+sg,I4405277835,Centre for Case Learning Excellence,https://ror.org/041ztg492,facility,sg,5
+sg,I4405278062,People's Association,https://ror.org/04v97d941,government,sg,5
+sg,I4405278307,NPS International School,https://ror.org/05njyzk07,education,sg,5
+sg,I311537116,Salzgitter Group (Singapore),https://ror.org/0487grk59,company,sg,4
+sg,I4210094593,Vishuo Biomedical (Singapore),https://ror.org/0084xy061,company,sg,4
+sg,I4210106281,Global Science and Technology Forum,https://ror.org/01j8dxy82,other,sg,4
+sg,I4210130882,Sivantos (Singapore),https://ror.org/03at4pf87,company,sg,4
+sg,I4405268751,Citrin Foundation,https://ror.org/01y2q2410,nonprofit,sg,4
+sg,I4405276748,St Francis Methodist School (International),https://ror.org/0053vyf49,education,sg,4
+sg,I4405277030,Singapore Medical Council,https://ror.org/016q3pg47,government,sg,4
+sg,I4405277180,Centre for Information Integrity and the Internet,https://ror.org/01rq0b634,education,sg,4
+sg,I4405277252,Majlis Ugama Islam Singapura,https://ror.org/0220z3h48,government,sg,4
+sg,I4405277654,Centre for Information Sciences and Systems,https://ror.org/03g8f8n06,facility,sg,4
+sg,I4210122339,Asia-Pacific Regional Network for Early Childhood,https://ror.org/01ypsy903,nonprofit,sg,3
+sg,I4210127588,"Ministry of Culture, Community and Youth",https://ror.org/031a9h652,government,sg,3
+sg,I4210162094,Volition (Singapore),https://ror.org/05ekw4q84,company,sg,3
+sg,I4405254156,Advanced Technology Research Centre Pte Ltd (Singapore),https://ror.org/01fypx926,company,sg,3
+sg,I4405257333,Avient Colorants Singapore Pte. Ltd. (Singapore),https://ror.org/0555gjx72,company,sg,3
+sg,I4405276771,Central Provident Fund Board,https://ror.org/0089w2v93,government,sg,3
+sg,I4405276779,Sentosa Development Corporation,https://ror.org/009bssm34,government,sg,3
+sg,I4405276853,Energy Efficiency Technology Centre,https://ror.org/00gmfwt59,facility,sg,3
+sg,I4405277157,Wealth Management Institute,https://ror.org/01p4xq778,education,sg,3
+sg,I4405277161,Asian Centre for Health Behavioural Insights and Interventions,https://ror.org/01pss5020,facility,sg,3
+sg,I4405277189,Auston Institute of Management,https://ror.org/01sxa9773,education,sg,3
+sg,I4405277337,Invictus International School,https://ror.org/02b8v6b17,education,sg,3
+sg,I4405277497,Singapore Nursing Board,https://ror.org/02xswe102,government,sg,3
+sg,I4405277638,Design Factory@SIT,https://ror.org/03enq7y02,facility,sg,3
+sg,I4405277704,Institute of Data,https://ror.org/03m6p4e67,education,sg,3
+sg,I4405277916,Assas International School,https://ror.org/04akv1d48,education,sg,3
+sg,I4405278004,Stanfort Academy,https://ror.org/04ktkj840,education,sg,3
+sg,I4405278330,The Law Society of Singapore,https://ror.org/05qjez874,other,sg,3
+sg,I4405278343,Lien Centre for Social Innovation,https://ror.org/05r8y0b85,facility,sg,3
+sg,I4210087314,Tote Board,https://ror.org/0018peh15,government,sg,2
+sg,I4210124114,British High Commission Singapore,https://ror.org/02pn32n10,government,sg,2
+sg,I4210132357,Asia Oceania Geosciences Society,https://ror.org/02wjs8c89,other,sg,2
+sg,I4210150454,Golden Agri-Resources (Singapore),https://ror.org/04vcg0a87,company,sg,2
+sg,I4405253277,Gradiant International Holdings Pte Ltd (Singapore),https://ror.org/00g280465,company,sg,2
+sg,I4405254787,JFE Engineering Pte Ltd (Singapore),https://ror.org/0282skn54,company,sg,2
+sg,I4405264517,The Asia Pacific School of Business,https://ror.org/0265jex96,education,sg,2
+sg,I4405272261,Ngee Ann Kongsi,https://ror.org/03vwr9k19,nonprofit,sg,2
+sg,I4405272696,Far East Organization (Singapore),https://ror.org/04jbagq77,company,sg,2
+sg,I4405276986,New Vantage International College,https://ror.org/012hp5w59,education,sg,2
+sg,I4405277117,Victoria World Academy,https://ror.org/01h36d844,education,sg,2
+sg,I4405277166,Singapore Pharmacy Council,https://ror.org/01px9hk67,government,sg,2
+sg,I4405277251,Centre for Bio-Devices and Bio-Informatics,https://ror.org/021xbtf51,facility,sg,2
+sg,I4405277387,Stalford Academy,https://ror.org/02hnpf396,education,sg,2
+sg,I4405277417,Culture Science Innovations,https://ror.org/02mpzf490,facility,sg,2
+sg,I4405277484,Singapore Korean International School,https://ror.org/02vqf9v13,education,sg,2
+sg,I4405277487,Hanbridge Institute,https://ror.org/02wgx1720,education,sg,2
+sg,I4405277845,Intercultural Theatre Institute,https://ror.org/04356ge19,education,sg,2
+sg,I4405277886,CSM Academy International,https://ror.org/046ere582,education,sg,2
+sg,I4405277996,Yellow Ribbon Singapore,https://ror.org/04jzqfs14,government,sg,2
+sg,I4405278125,Chartered Institute of Technology,https://ror.org/052ejmt08,education,sg,2
+sg,I4405278170,Yuvabharathi International School,https://ror.org/056qsnv62,education,sg,2
+sg,I4405278194,Peranakan Museum,https://ror.org/058shh440,archive,sg,2
+sg,I4405278230,Business Families Institute,https://ror.org/05cvk4j85,education,sg,2
+sg,I4405278261,Counselling and Care Centre,https://ror.org/05h7ene45,nonprofit,sg,2
+sg,I2800779641,Lee Foundation,https://ror.org/046secg30,nonprofit,sg,1
+sg,I4210110591,A*STAR Joint Council Office,https://ror.org/01pz9tv63,other,sg,1
+sg,I4210165705,Asia Cornea Society,https://ror.org/05jksah37,other,sg,1
+sg,I4405254413,Singapore Baptist Theological Seminary,https://ror.org/01sgp7065,education,sg,1
+sg,I4405268525,Lien Foundation,https://ror.org/017xvmx13,nonprofit,sg,1
+sg,I4405272398,National Youth Council Singapore,https://ror.org/0448yt207,government,sg,1
+sg,I4405276795,Dover Court International School,https://ror.org/00b00ne73,education,sg,1
+sg,I4405276814,International Management School,https://ror.org/00cqee519,education,sg,1
+sg,I4405276919,Shelton College International,https://ror.org/00tp7hy96,education,sg,1
+sg,I4405276974,Chatsworth International School,https://ror.org/011ksjd48,education,sg,1
+sg,I4405276998,Board of Architects,https://ror.org/013jgt396,government,sg,1
+sg,I4405277313,Singapore Chinese Chamber Institute of Business,https://ror.org/0286xvf36,education,sg,1
+sg,I4405277381,NTU-SBF Centre for African Studies,https://ror.org/02gy1w144,facility,sg,1
+sg,I4405277401,Zhicheng Private School,https://ror.org/02jr1ba28,education,sg,1
+sg,I4405277433,Singapore Institute of Legal Education,https://ror.org/02p2f9408,government,sg,1
+sg,I4405277556,Centre for Research on Intelligent Software Engineering,https://ror.org/033cmf492,facility,sg,1
+sg,I4405277662,ERC Institute,https://ror.org/03grzyb76,education,sg,1
+sg,I4405277747,Nucleic Acid Therapeutics Initiative,https://ror.org/03rh8sw23,facility,sg,1
+sg,I4405278056,Council for Estate Agencies,https://ror.org/04svccm11,government,sg,1
+sg,I4405278153,Middleton International School,https://ror.org/054myzc54,education,sg,1
+sg,I4405278168,Centre for Holistic Inquiry into Lifelong Learning,https://ror.org/056jhh583,facility,sg,1
+sg,I4405278242,International Management and Sports College,https://ror.org/05eqb1q44,education,sg,1
+sg,I4405278333,Beacon International College,https://ror.org/05qqqxj18,education,sg,1
+sg,I221377653,Tata Technologies (Singapore),https://ror.org/01x1jk522,company,sg,0
+sg,I4210090330,Mycofarm (Singapore),https://ror.org/007tn2w26,company,sg,0
+sg,I4210090788,ASSAB Pacific (Singapore),https://ror.org/00amzdz67,company,sg,0
+sg,I4210095745,Safran (Singapore),https://ror.org/00ay2hv83,company,sg,0
+sg,I4210096274,Lenovo (Singapore),https://ror.org/00mhktq57,company,sg,0
+sg,I4210114163,Mondelēz International (Singapore),https://ror.org/026sfkz12,company,sg,0
+sg,I4210116153,Danaher (Singapore),https://ror.org/02dwv3218,company,sg,0
+sg,I4210116591,Shimano (Singapore),https://ror.org/01q5b3b88,company,sg,0
+sg,I4210118577,Intellectual Ventures (Singapore),https://ror.org/02c6c1603,company,sg,0
+sg,I4210124277,Singapore Millennium Foundation,https://ror.org/024p43m36,nonprofit,sg,0
+sg,I4210137594,Rockwell Automation (Singapore),https://ror.org/047qhbs69,company,sg,0
+sg,I4210142267,Tan Kah Kee Foundation,https://ror.org/058qzh392,nonprofit,sg,0
+sg,I4210146982,SunEdison (Singapore),https://ror.org/050d1hk46,company,sg,0
+sg,I4210150131,Prestige World Genetics Pte (Singapore),https://ror.org/04z6pqc94,company,sg,0
+sg,I4210151030,Lorem Vascular (Singapore),https://ror.org/05fj56d84,company,sg,0
+sg,I4210152978,Chimes Society,https://ror.org/047zejf54,nonprofit,sg,0
+sg,I4210158282,Orica (Singapore),https://ror.org/04wyxrk96,company,sg,0
+sg,I4405254288,Goethe-Institut Singapore,https://ror.org/01mtt4z48,other,sg,0
+sg,I4405254769,National Health Innovation Centre,https://ror.org/027h77v82,funder,sg,0
+sg,I4405254909,"Alliance to End Plastic Waste, Inc.",https://ror.org/02cp6mx43,nonprofit,sg,0
+sg,I4405266233,Association of Educational Therapists (Singapore),https://ror.org/01cdza040,other,sg,0
+sg,I4405278404,Goh Foundation,https://ror.org/000nses31,funder,sg,0
+sg,I4405280830,Optics and Photonics Society of Singapore,https://ror.org/03g452h58,nonprofit,sg,0

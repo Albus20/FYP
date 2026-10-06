@@ -1,0 +1,10 @@
+{
+  "file": "raw/patents_invisible_univ_families.csv",
+  "sha256": "80e55a0a65c6fc7e2f00209f34545450c2096e5979d88835b57a2b3e31960cc6",
+  "source_url": "https://console.cloud.google.com/bigquery?p=patents-public-data&d=patents&t=publications",
+  "query_or_method": "sql/patents_bigquery_invisible_univ.sql 原样运行",
+  "collected_utc": "2026-10-04T13:35:44+00:00",
+  "collected_by": "賈贇",
+  "notes": "",
+  "manifest_version": 1
+}

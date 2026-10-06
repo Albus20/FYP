@@ -1,0 +1,8 @@
+忘了記錄實際處理了多大資料了，這裏給出預計掃描量與實際導出行數
+patents_families_raw_s3.csv
+22.79GB
+11913行
+
+patents_bigquery_invisible_univ.csv
+21.38GB
+4112行

@@ -1,0 +1,9 @@
+PS C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP> python scripts\company_authors_build.py --fetc 
+[21:12:33] hk：meta.count = 95
+[21:12:33] hk：取回 95 家，与 meta.count 一致
+[21:12:35] sg：meta.count = 508
+[21:12:39] sg：取回 508 家，与 meta.count 一致
+[21:12:39] 类型分布：hk/company 18；hk/education 16；hk/facility 8；hk/funder 5；hk/government 15；hk/healthcare 7；hk/nonprofit 20；hk/other 6；sg/archive 4；sg/company 99；sg/education 115；sg/facility 133；sg/funder 7；sg/government 75；sg/healthcare 36；sg/nonprofit 23；sg/other 16
+[21:12:39] 请求日志 → openalex_institutions_hk_sg.csv.requests.tsv（4 条可点 URL，供 R4 复核）
+[21:12:39] manifest → openalex_institutions_hk_sg.csv.manifest.json
+[21:12:39] raw/openalex_institutions_hk_sg.csv 写入 603 行

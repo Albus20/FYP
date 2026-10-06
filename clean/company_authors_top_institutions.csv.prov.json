@@ -1,0 +1,10 @@
+{
+ "inputs": {
+  "raw/openalex_author_inst_years.csv": "222a87c35cb9b7f330bdcafb98aaf0be787151edf0a1a3bbdd55ecf5fa7d25e4",
+  "raw/openalex_institutions_hk_sg.csv": "2d43a79fa3a5a994d590e89e3f5ff0df7c3f826a8f4d1c490e8333150740466c",
+  "clean/researchers_stock_by_quarter.csv": "b8ca78f881ed2a9d4a33a8d60af5ebac2de6154da9526ca59cbffe05bb998da1"
+ },
+ "script": "scripts/company_authors_build.py",
+ "created_utc": "2026-10-04T13:16:24+00:00",
+ "notes": "rules: docs/企业作者口径_2026-10-04.md"
+}

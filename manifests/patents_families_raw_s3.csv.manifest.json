@@ -1,0 +1,10 @@
+{
+  "file": "raw/patents_families_raw_s3.csv",
+  "sha256": "c318abae19fdf2900b5a02c19b065d394d45d2c572a0fde160a57e79f9b2ba2e",
+  "source_url": "https://console.cloud.google.com/bigquery?p=patents-public-data&d=patents&t=publications",
+  "query_or_method": "sql/patents_bigquery_s3_2024.sql 原样运行",
+  "collected_utc": "2026-10-04T13:35:32+00:00",
+  "collected_by": "賈贇",
+  "notes": "",
+  "manifest_version": 1
+}
