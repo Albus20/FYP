@@ -1,0 +1,29 @@
+# Collected data and local indexes (do not publish by default)
+/results/
+/cache/
+*.sqlite
+*.sqlite3
+*.db
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+credentials*.json
+*service-account*.json
+application_default_credentials.json
+*.pem
+*.key
+.venv/
+venv/
+
+# Python / editor / OS output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.zip
