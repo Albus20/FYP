@@ -3,6 +3,7 @@ import copy
 import json
 import tempfile
 import unittest
+from unittest.mock import Mock, patch
 from pathlib import Path
 import collect as c
 import patents
@@ -36,6 +37,46 @@ class TestCollection(unittest.TestCase):
     def test_nonheld(self):
         self.assertEqual(c.catalog_one(None,'ICCV',2024),([], 'not_held'))
         self.assertEqual(c.catalog_one(None,'ECCV',2023),([], 'not_held'))
+
+    def test_openalex_page_limit_and_cursor(self):
+        fetch = Mock()
+        fetch.get.side_effect = [
+            {'results': [{'id': 'W1'}], 'meta': {'next_cursor': 'next', 'count': 1}},
+            {'results': [], 'meta': {'next_cursor': None}},
+        ]
+        self.assertEqual(list(c.oa_pages(fetch, 'publication_year:2024')), [{'id': 'W1'}])
+        self.assertEqual([call.args[1]['per_page'] for call in fetch.get.call_args_list], [100, 100])
+        self.assertEqual([call.args[1]['cursor'] for call in fetch.get.call_args_list], ['*', 'next'])
+
+    def test_api_error_retains_reason_without_key(self):
+        with tempfile.TemporaryDirectory(dir=c.ROOT) as td, patch.object(c, 'CACHE', Path(td)), \
+                patch.dict(c.os.environ, {'OPENALEX_API_KEY': 'test-secret'}):
+            fetch = c.Fetch()
+            response = Mock(status_code=400, text='bad request')
+            response.json.return_value = {'message': 'per_page must be <= 100; test-secret'}
+            fetch.session.get = Mock(return_value=response)
+            with self.assertRaises(RuntimeError) as error:
+                fetch.get('https://api.openalex.org/works', as_json=True)
+            self.assertIn('per_page must be <= 100', str(error.exception))
+            self.assertNotIn('test-secret', str(error.exception))
+
+    def test_completed_year_exported_after_network_failure(self):
+        def interrupted_pull(*args, **kwargs):
+            c.save_json(c.OUT/'journal_sources.json', [{'source_id':'S1', 'name':'TPAMI', 'keyword_filter':False}])
+            work = copy.deepcopy(self.w)
+            work['primary_location'] = {'source': {'id':'https://openalex.org/S1'}}
+            c.save_json(c.OUT/'oa'/'journals_2024.json', [work])
+            raise RuntimeError('network stopped during 2025')
+
+        with tempfile.TemporaryDirectory(dir=c.ROOT) as td, patch.object(c, 'OUT', Path(td)), \
+                patch.object(c, 'pull_oa', side_effect=interrupted_pull), \
+                patch.object(c.sys, 'argv', ['collect.py', 'journals', '--start', '2024', '--end', '2025']):
+            with self.assertRaisesRegex(RuntimeError, 'network stopped'):
+                c.main()
+            import csv
+            with (c.OUT/'papers_HK_SG.csv').open(encoding='utf-8-sig') as f:
+                rows = list(csv.DictReader(f))
+            self.assertEqual([(r['work_id'], r['year']) for r in rows], [('W1', '2024')])
 
     def test_patent_window_and_family(self):
         q=patents.sql(2015,2025)

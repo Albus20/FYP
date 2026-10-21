@@ -76,7 +76,19 @@ class Fetch:
                 time.sleep(2 ** attempt)
                 continue
             if r.status_code != 200:
-                raise RuntimeError(f'HTTP {r.status_code} at {url}')
+                hint = ''
+                if urlparse(url).hostname == 'api.openalex.org':
+                    try:
+                        body = r.json()
+                        hint = str(body.get('message') or body.get('error') or body.get('code') or '')[:600]
+                    except (ValueError, AttributeError):
+                        pass
+                    key = os.getenv('OPENALEX_API_KEY')
+                    if key:
+                        hint = hint.replace(key, '[REDACTED]')
+                    if r.status_code in (401, 403):
+                        hint += ' Check your API key and verified email at https://openalex.org/settings/api'
+                raise RuntimeError(f'HTTP {r.status_code} at {url}' + (': ' + hint if hint else ''))
             if any(x in r.text[:5000].lower() for x in ['making sure you', 'challengerequirederror']):
                 raise RuntimeError('Site challenge; manual access needed: ' + url)
             if as_json:
@@ -280,9 +292,14 @@ SELECT = 'id,doi,title,publication_year,publication_date,type,authorships,primar
 
 def oa_pages(fetch, flt, pool=False):
     cursor = '*'
+    page, downloaded = 0, 0
     while cursor:
         fields = SELECT.replace(',abstract_inverted_index', '').replace(',primary_topic', '') if pool else SELECT
-        d = fetch.get('https://api.openalex.org/works', {'filter': flt, 'select': fields, 'per_page': 200, 'cursor': cursor}, True)
+        d = fetch.get('https://api.openalex.org/works', {'filter': flt, 'select': fields, 'per_page': 100, 'cursor': cursor}, True)
+        page += 1
+        downloaded += len(d.get('results', []))
+        if page == 1 or page % 10 == 0:
+            print(f'  page {page}: {downloaded} / {d.get("meta", {}).get("count", "?")} records (cached for resume)', flush=True)
         yield from d.get('results', [])
         new = d.get('meta', {}).get('next_cursor')
         if new == cursor:
@@ -298,6 +315,7 @@ def pull_oa(fetch, years, pool=False, all_ai=False):
     resolved = []
     if not pool and not all_ai:
         for j in CFG['journals']:
+            print('Resolving journal:', j['name'], flush=True)
             source = fetch.get('https://api.openalex.org/sources/issn:' + j['issn'], as_json=True)
             resolved.append(j | {'source_id': source['id'].split('/')[-1], 'resolved_name': source['display_name']})
         save_json(OUT / 'journal_sources.json', resolved)
@@ -312,6 +330,7 @@ def pull_oa(fetch, years, pool=False, all_ai=False):
             flt += ',primary_topic.subfield.id:1702'
         elif not pool:
             flt += ',primary_location.source.id:' + '|'.join(j['source_id'] for j in resolved)
+        print('Fetching', label, year, '(network requests may take up to 60s each)', flush=True)
         works = list(oa_pages(fetch, flt, pool=pool))
         save_json(target, works)
         print(label, year, len(works), flush=True)
@@ -474,14 +493,19 @@ def main():
             p.error('--file required')
         import_catalog(args.file)
     else:
-        if args.mode in ('catalog', 'all'):
-            collect_catalog(fetch, years, args.venues or CFG['conferences'])
-        if args.mode in ('journals', 'all'):
-            pull_oa(fetch, years)
-        if args.mode in ('pool', 'all'):
-            pull_oa(fetch, range(args.start-1, args.end+2), pool=True)
-        if args.mode == 'all-ai':
-            pull_oa(fetch, years, all_ai=True)
+        try:
+            if args.mode in ('catalog', 'all'):
+                collect_catalog(fetch, years, args.venues or CFG['conferences'])
+            if args.mode in ('journals', 'all'):
+                pull_oa(fetch, years)
+            if args.mode in ('pool', 'all'):
+                pull_oa(fetch, range(args.start-1, args.end+2), pool=True)
+            if args.mode == 'all-ai':
+                pull_oa(fetch, years, all_ai=True)
+        except (Exception, KeyboardInterrupt):
+            print('Collection stopped; exporting completed years. Partial years remain in cache.', flush=True)
+            build(args.start, args.end)
+            raise
         build(args.start, args.end)
 
 
