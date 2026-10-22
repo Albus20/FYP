@@ -1,0 +1,9 @@
+results/
+*.part
+patents_raw_2025.csv
+config/new_assignees.csv
+__pycache__/
+.venv/
+.env
+*credentials*.json
+*service-account*.json
