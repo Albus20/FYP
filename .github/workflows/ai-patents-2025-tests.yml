@@ -1,0 +1,24 @@
+name: AI patents 2025 offline tests
+on:
+  push:
+    paths:
+      - 'scripts/ai_patents_2025/**'
+      - '.github/workflows/ai-patents-2025-tests.yml'
+  pull_request:
+    paths:
+      - 'scripts/ai_patents_2025/**'
+      - '.github/workflows/ai-patents-2025-tests.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: scripts/ai_patents_2025
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python -B -m unittest -v test_collect

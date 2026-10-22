@@ -1,0 +1,8 @@
+{
+  "historical_regression": "2015-2024 AI HK/SG",
+  "quarters_verified": 80,
+  "matches_existing_series": true,
+  "offline_tests": 12,
+  "end_to_end_csv_test": "passed",
+  "live_bigquery_test": "not_run_no_credentials"
+}
